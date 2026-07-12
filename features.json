@@ -1,0 +1,5875 @@
+[
+  {
+    "name": "A B Testing Of Script Variants With Statistical Si",
+    "canonicalKey": "a b of script si statistical testing variants with",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:53",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "AI Coverage Is Comprehensive 63 Endpoints Across",
+    "canonicalKey": "63 across ai comprehensive coverage endpoints is",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:54",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "AI Predictions",
+    "canonicalKey": "ai prediction",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AIPredictions",
+      "/ai-predictions"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:298",
+        "route": "/ai-predictions",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx",
+        "route": "/AIPredictions",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Ab And Patches",
+    "canonicalKey": "ab and patche",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ABAndPatches"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/ABAndPatches.jsx",
+        "route": "/ABAndPatches",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Ab Patches",
+    "canonicalKey": "ab patche",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ab-patches"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:299",
+        "route": "/ab-patches",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Ab Test Design",
+    "canonicalKey": "ab design test",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ab-test-design",
+      "/ai/ab-test-design"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:341",
+        "route": "/ab-test-design",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:112",
+        "route": "/ai/ab-test-design",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Accent Adapter",
+    "canonicalKey": "accent adapter",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/ai/accent-adapter"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:65",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/accent-adapter/page.tsx",
+        "route": "/ai/accent-adapter",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Admin Portal",
+    "canonicalKey": "admin portal",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:84",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Advice",
+    "canonicalKey": "advice",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai/advice"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/combat.js:206",
+        "route": "/:id/ai/advice",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Advise",
+    "canonicalKey": "advise",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/advise"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/engineExportAdvisor.js:42",
+        "route": "/advise",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Agent Performance Scoring Grading On Tone Accurac",
+    "canonicalKey": "accurac agent grading on performance scoring tone",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:49",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page",
+    "canonicalKey": "agentic co encounters gm pilot runs that to tracks",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AgenticGmCoPilotThatRunsEncountersTracksToPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/AgenticGmCoPilotThatRunsEncountersTracksToPage.jsx",
+        "route": "/AgenticGmCoPilotThatRunsEncountersTracksToPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Agents",
+    "canonicalKey": "agent",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/agents"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:40",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/agents/page.tsx",
+        "route": "/agents",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Apply Condition",
+    "canonicalKey": "apply condition",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/apply-condition"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/combat.js:158",
+        "route": "/:id/apply-condition",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Arc",
+    "canonicalKey": "arc",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai/arc"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/characters.js:160",
+        "route": "/:id/ai/arc",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Asset Brief Pdf",
+    "canonicalKey": "asset brief pdf",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/asset-brief-pdf"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/customViews.js:174",
+        "route": "/asset-brief-pdf",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Asset Collab Page",
+    "canonicalKey": "asset collab",
+    "aliases": [
+      "Asset Collab"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AssetCollabPage",
+      "/asset-collab"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:154",
+        "route": "/asset-collab",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/AssetCollabPage.jsx",
+        "route": "/AssetCollabPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Asset Id",
+    "canonicalKey": "asset id",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:assetId",
+      "/:id/assets/:assetId"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/assetVersions.js:37",
+        "route": "/:assetId",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/assetVersions.js:50",
+        "route": "/:assetId",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/collections.js:131",
+        "route": "/:id/assets/:assetId",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Asset Usage Frequency",
+    "canonicalKey": "asset frequency usage",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/asset-usage-frequency"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/customViews.js:60",
+        "route": "/asset-usage-frequency",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Assets",
+    "canonicalKey": "asset",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/assets"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/collections.js:106",
+        "route": "/:id/assets",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Avatar Render",
+    "canonicalKey": "avatar render",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/voicestudio/avatarRender"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:77",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/avatarRender/page.tsx",
+        "route": "/voicestudio/avatarRender",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Award Xp",
+    "canonicalKey": "award xp",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/award-xp"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/characters.js:110",
+        "route": "/:id/award-xp",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Backlog",
+    "canonicalKey": "backlog",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ai/backlog"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/backlog/page.tsx",
+        "route": "/ai/backlog",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Backstory",
+    "canonicalKey": "backstory",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai/backstory"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/characters.js:137",
+        "route": "/:id/ai/backstory",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Balance",
+    "canonicalKey": "balance",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/balance"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:113",
+        "route": "/balance",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Balance Recommend",
+    "canonicalKey": "balance recommend",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/balance-recommend"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:154",
+        "route": "/balance-recommend",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Balance Recommendations",
+    "canonicalKey": "balance recommendation",
+    "aliases": [
+      "Balance Recommendations View"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/BalanceRecommendations",
+      "/balance-recommendations-view"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/BalanceRecommendations.jsx",
+        "route": "/BalanceRecommendations",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:297",
+        "route": "/balance-recommendations-view",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Balance Rules",
+    "canonicalKey": "balance rule",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/balance-rules"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:204",
+        "route": "/balance-rules",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Balance Simulate",
+    "canonicalKey": "balance simulate",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai/balance-simulate",
+      "/balance-simulate"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:296",
+        "route": "/balance-simulate",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:109",
+        "route": "/ai/balance-simulate",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Branch",
+    "canonicalKey": "branch",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:assetId/branch"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/assetVersions.js:68",
+        "route": "/:assetId/branch",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Call History",
+    "canonicalKey": "call",
+    "aliases": [
+      "Calls"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/calls"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:42",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/calls/page.tsx",
+        "route": "/calls",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf A B Testing Of Script Variants With Statistical",
+    "canonicalKey": "a b cf of script statistical testing variants with",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf-a-b-testing-of-script-variants-with-statistical"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/cf-a-b-testing-of-script-variants-with-statistical/page.tsx",
+        "route": "/cf-a-b-testing-of-script-variants-with-statistical",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Agent Performance Scoring Grading On Tone Accuracy Sentiment",
+    "canonicalKey": "accuracy agent cf grading on performance scoring sentiment tone",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf-agent-performance-scoring-grading-on-tone-accuracy-sentiment"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/cf-agent-performance-scoring-grading-on-tone-accuracy-sentiment/page.tsx",
+        "route": "/cf-agent-performance-scoring-grading-on-tone-accuracy-sentiment",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Agentic Asset Pipeline Turning A Game",
+    "canonicalKey": "a agentic asset cf game pipeline turning",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfAgenticAssetPipelineTurningAGame",
+      "/cf-agentic-asset-pipeline-turning-a-game"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:166",
+        "route": "/cf-agentic-asset-pipeline-turning-a-game",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/CfAgenticAssetPipelineTurningAGame.jsx",
+        "route": "/CfAgenticAssetPipelineTurningAGame",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Agentic Playtesting Bots That Play Auton",
+    "canonicalKey": "agentic auton bots cf play playtesting that",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfAgenticPlaytestingBotsThatPlayAuton",
+      "/cf-agentic-playtesting-bots-that-play-auton"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:305",
+        "route": "/cf-agentic-playtesting-bots-that-play-auton",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/CfAgenticPlaytestingBotsThatPlayAuton.jsx",
+        "route": "/CfAgenticPlaytestingBotsThatPlayAuton",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Animation Retargeting AI Reusing Animati",
+    "canonicalKey": "ai animati animation cf retargeting reusing",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfAnimationRetargetingAiReusingAnimati",
+      "/cf-animation-retargeting-ai-reusing-animati"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:170",
+        "route": "/cf-animation-retargeting-ai-reusing-animati",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/CfAnimationRetargetingAiReusingAnimati.jsx",
+        "route": "/CfAnimationRetargetingAiReusingAnimati",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Cohort Aware Balance Changes Targeting H",
+    "canonicalKey": "aware balance cf changes cohort h targeting",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfCohortAwareBalanceChangesTargetingH",
+      "/cf-cohort-aware-balance-changes-targeting-h"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:307",
+        "route": "/cf-cohort-aware-balance-changes-targeting-h",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/CfCohortAwareBalanceChangesTargetingH.jsx",
+        "route": "/CfCohortAwareBalanceChangesTargetingH",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Cross Game Balance Learning From Dotalea",
+    "canonicalKey": "balance cf cross dotalea from game learning",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfCrossGameBalanceLearningFromDotalea",
+      "/cf-cross-game-balance-learning-from-dotalea"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:309",
+        "route": "/cf-cross-game-balance-learning-from-dotalea",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/CfCrossGameBalanceLearningFromDotalea.jsx",
+        "route": "/CfCrossGameBalanceLearningFromDotalea",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Custom Voice Cloning For Branded Voice Characteristics",
+    "canonicalKey": "branded cf characteristic cloning custom for voice",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf-custom-voice-cloning-for-branded-voice-characteristics"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/cf-custom-voice-cloning-for-branded-voice-characteristics/page.tsx",
+        "route": "/cf-custom-voice-cloning-for-branded-voice-characteristics",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Esports Meta Predictor Recommending Pree",
+    "canonicalKey": "cf esports meta predictor pree recommending",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfEsportsMetaPredictorRecommendingPree",
+      "/cf-esports-meta-predictor-recommending-pree"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:306",
+        "route": "/cf-esports-meta-predictor-recommending-pree",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/CfEsportsMetaPredictorRecommendingPree.jsx",
+        "route": "/CfEsportsMetaPredictorRecommendingPree",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Long Term Contextual Conversation Memory Across Sessions",
+    "canonicalKey": "across cf contextual conversation long memory session term",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf-long-term-contextual-conversation-memory-across-sessions"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/cf-long-term-contextual-conversation-memory-across-sessions/page.tsx",
+        "route": "/cf-long-term-contextual-conversation-memory-across-sessions",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Marketplace Licensing Layer With Image S",
+    "canonicalKey": "cf image layer licensing marketplace s with",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfMarketplaceLicensingLayerWithImageS",
+      "/cf-marketplace-licensing-layer-with-image-s"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:169",
+        "route": "/cf-marketplace-licensing-layer-with-image-s",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/CfMarketplaceLicensingLayerWithImageS.jsx",
+        "route": "/CfMarketplaceLicensingLayerWithImageS",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Multi Language Code Switching For Mixed Conversations",
+    "canonicalKey": "cf code conversation for language mixed multi switching",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf-multi-language-code-switching-for-mixed-conversations"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/cf-multi-language-code-switching-for-mixed-conversations/page.tsx",
+        "route": "/cf-multi-language-code-switching-for-mixed-conversations",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Performance Optimization Advisor Analyzi",
+    "canonicalKey": "advisor analyzi cf optimization performance",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfPerformanceOptimizationAdvisorAnalyzi",
+      "/cf-performance-optimization-advisor-analyzi"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:168",
+        "route": "/cf-performance-optimization-advisor-analyzi",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/CfPerformanceOptimizationAdvisorAnalyzi.jsx",
+        "route": "/CfPerformanceOptimizationAdvisorAnalyzi",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Real Time Sentiment Intervention Coaching Agents Mid Call",
+    "canonicalKey": "agents call cf coaching intervention mid real sentiment time",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/cf-real-time-sentiment-intervention-coaching-agents-mid-call"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/cf-real-time-sentiment-intervention-coaching-agents-mid-call/page.tsx",
+        "route": "/cf-real-time-sentiment-intervention-coaching-agents-mid-call",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Rollback Analysis Tracking How Balance C",
+    "canonicalKey": "analysis balance c cf how rollback tracking",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfRollbackAnalysisTrackingHowBalanceC",
+      "/cf-rollback-analysis-tracking-how-balance-c"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:308",
+        "route": "/cf-rollback-analysis-tracking-how-balance-c",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/CfRollbackAnalysisTrackingHowBalanceC.jsx",
+        "route": "/CfRollbackAnalysisTrackingHowBalanceC",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Style Consistency Enforcer Flagging Outl",
+    "canonicalKey": "cf consistency enforcer flagging outl style",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfStyleConsistencyEnforcerFlaggingOutl",
+      "/cf-style-consistency-enforcer-flagging-outl"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:167",
+        "route": "/cf-style-consistency-enforcer-flagging-outl",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/CfStyleConsistencyEnforcerFlaggingOutl.jsx",
+        "route": "/CfStyleConsistencyEnforcerFlaggingOutl",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Unityunreal Export Plugin With Correct P",
+    "canonicalKey": "cf correct export p plugin unityunreal with",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfUnityunrealExportPluginWithCorrectP",
+      "/cf-unityunreal-export-plugin-with-correct-p"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:171",
+        "route": "/cf-unityunreal-export-plugin-with-correct-p",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/CfUnityunrealExportPluginWithCorrectP.jsx",
+        "route": "/CfUnityunrealExportPluginWithCorrectP",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Cf Voice Video Sentiment From Twitchyoutube",
+    "canonicalKey": "cf from sentiment twitchyoutube video voice",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfVoiceVideoSentimentFromTwitchyoutube",
+      "/cf-voice-video-sentiment-from-twitchyoutube"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:310",
+        "route": "/cf-voice-video-sentiment-from-twitchyoutube",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/CfVoiceVideoSentimentFromTwitchyoutube.jsx",
+        "route": "/CfVoiceVideoSentimentFromTwitchyoutube",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Character Sheet",
+    "canonicalKey": "character sheet",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/character-sheet"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/customViews.js:240",
+        "route": "/character-sheet",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Characters",
+    "canonicalKey": "character",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/characters"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/customViews.js:228",
+        "route": "/characters",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Collections",
+    "canonicalKey": "collection",
+    "aliases": [
+      "Collections Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/CollectionsPage",
+      "/collections"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/styleConsistency.js:83",
+        "route": "/collections",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:142",
+        "route": "/collections",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/CollectionsPage.jsx",
+        "route": "/CollectionsPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Comment Id",
+    "canonicalKey": "comment id",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/comments/:commentId"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/assetComments.js:67",
+        "route": "/comments/:commentId",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Configurations",
+    "canonicalKey": "configuration",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/configurations"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:161",
+        "route": "/configurations",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Consent Ledger",
+    "canonicalKey": "consent ledger",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/voicestudio/consentLedger"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:75",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/consentLedger/page.tsx",
+        "route": "/voicestudio/consentLedger",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Custom Voice Cloning For Branded Voice Characteris",
+    "canonicalKey": "branded characteris cloning custom for voice",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:52",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Dialogue",
+    "canonicalKey": "dialogue",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai/dialogue"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/npcs.js:131",
+        "route": "/:id/ai/dialogue",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Dice Probability",
+    "canonicalKey": "dice probability",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/dice-probability"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/customViews.js:134",
+        "route": "/dice-probability",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Difficulty",
+    "canonicalKey": "difficulty",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/difficulty"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:54",
+        "route": "/difficulty",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Difficulty Analyze",
+    "canonicalKey": "analyze difficulty",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/difficulty-analyze"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:54",
+        "route": "/difficulty-analyze",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Economy",
+    "canonicalKey": "economy",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/economy"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:69",
+        "route": "/economy",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Economy Analyze",
+    "canonicalKey": "analyze economy",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/economy-analyze"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:79",
+        "route": "/economy-analyze",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Emotion Detector",
+    "canonicalKey": "detector emotion",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/ai/emotion-detector"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:67",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/emotion-detector/page.tsx",
+        "route": "/ai/emotion-detector",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Encounter Balance",
+    "canonicalKey": "balance encounter",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/encounter-balance"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/customViews.js:396",
+        "route": "/encounter-balance",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Encounter Pacing Page",
+    "canonicalKey": "encounter pacing",
+    "aliases": [
+      "Encounter Pacing"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/EncounterPacingPage",
+      "/encounter-pacing"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/App.jsx:114",
+        "route": "/encounter-pacing",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/EncounterPacingPage.jsx",
+        "route": "/EncounterPacingPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "End",
+    "canonicalKey": "end",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/end"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/combat.js:191",
+        "route": "/:id/end",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/sessions.js:131",
+        "route": "/:id/end",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Error",
+    "canonicalKey": "error",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/error.tsx",
+        "route": "/",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/error.tsx",
+        "route": "/",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Experiments",
+    "canonicalKey": "experiment",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/experiments"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/abCohorts.js:75",
+        "route": "/experiments",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/abCohorts.js:93",
+        "route": "/experiments",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Exploit Detect",
+    "canonicalKey": "detect exploit",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/exploit-detect"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:104",
+        "route": "/exploit-detect",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Exploits",
+    "canonicalKey": "exploit",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/exploits"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:84",
+        "route": "/exploits",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Feedback Cluster",
+    "canonicalKey": "cluster feedback",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai/feedback-cluster",
+      "/feedback-cluster"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:438",
+        "route": "/feedback-cluster",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:130",
+        "route": "/ai/feedback-cluster",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Frontend Pages Folder Is Empty No Spa Ui Shipped Page",
+    "canonicalKey": "empty folder frontend is no pages shipped spa ui",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/FrontendPagesFolderIsEmptyNoSpaUiShippedPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/FrontendPagesFolderIsEmptyNoSpaUiShippedPage.jsx",
+        "route": "/FrontendPagesFolderIsEmptyNoSpaUiShippedPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Game Items",
+    "canonicalKey": "game item",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/game-items"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:219",
+        "route": "/game-items",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Game State",
+    "canonicalKey": "game state",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/game-state"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/customViews.js:37",
+        "route": "/game-state",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap AI Coverage Is Comprehensive 63 Endpoints Across Multi Language",
+    "canonicalKey": "63 across ai comprehensive coverage endpoints gap is language multi",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap-ai-coverage-is-comprehensive-63-endpoints-across-multi-language"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/gap-ai-coverage-is-comprehensive-63-endpoints-across-multi-language/page.tsx",
+        "route": "/gap-ai-coverage-is-comprehensive-63-endpoints-across-multi-language",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap Limited Billing Metering Granularity For AI Usage",
+    "canonicalKey": "ai billing for gap granularity limited metering usage",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap-limited-billing-metering-granularity-for-ai-usage"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/gap-limited-billing-metering-granularity-for-ai-usage/page.tsx",
+        "route": "/gap-limited-billing-metering-granularity-for-ai-usage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap Limited CRM Integration Depth Integrations Layer Exists But",
+    "canonicalKey": "but crm depth exists gap integration integrations layer limited",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap-limited-crm-integration-depth-integrations-layer-exists-but"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/gap-limited-crm-integration-depth-integrations-layer-exists-but/page.tsx",
+        "route": "/gap-limited-crm-integration-depth-integrations-layer-exists-but",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Animation Generation Endpoint Rigging",
+    "canonicalKey": "animation endpoint gap generation no rigging",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoAnimationGenerationEndpointRigging",
+      "/gap-no-animation-generation-endpoint-rigging"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:173",
+        "route": "/gap-no-animation-generation-endpoint-rigging",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoAnimationGenerationEndpointRigging.jsx",
+        "route": "/GapNoAnimationGenerationEndpointRigging",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Automated Patch Note Generator",
+    "canonicalKey": "automated gap generator no note patch",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoAutomatedPatchNoteGenerator",
+      "/gap-no-automated-patch-note-generator"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:314",
+        "route": "/gap-no-automated-patch-note-generator",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/GapNoAutomatedPatchNoteGenerator.jsx",
+        "route": "/GapNoAutomatedPatchNoteGenerator",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Balance Simulation Monte Carlo Endpoi",
+    "canonicalKey": "balance carlo endpoi gap monte no simulation",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoBalanceSimulationMonteCarloEndpoi",
+      "/gap-no-balance-simulation-monte-carlo-endpoi"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:313",
+        "route": "/gap-no-balance-simulation-monte-carlo-endpoi",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/GapNoBalanceSimulationMonteCarloEndpoi.jsx",
+        "route": "/GapNoBalanceSimulationMonteCarloEndpoi",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Conversation Transcript Full Text Search",
+    "canonicalKey": "conversation full gap no search text transcript",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap-no-conversation-transcript-full-text-search"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/gap-no-conversation-transcript-full-text-search/page.tsx",
+        "route": "/gap-no-conversation-transcript-full-text-search",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No File Upload Pipeline Detected Beyond",
+    "canonicalKey": "beyond detected file gap no pipeline upload",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoFileUploadPipelineDetectedBeyond",
+      "/gap-no-file-upload-pipeline-detected-beyond"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:182",
+        "route": "/gap-no-file-upload-pipeline-detected-beyond",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoFileUploadPipelineDetectedBeyond.jsx",
+        "route": "/GapNoFileUploadPipelineDetectedBeyond",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Game Engine Export Unity Unreal",
+    "canonicalKey": "engine export game gap no unity unreal",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoGameEngineExportUnityUnreal",
+      "/gap-no-game-engine-export-unity-unreal"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:179",
+        "route": "/gap-no-game-engine-export-unity-unreal",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoGameEngineExportUnityUnreal.jsx",
+        "route": "/GapNoGameEngineExportUnityUnreal",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Marketplace For Selling Assets",
+    "canonicalKey": "asset for gap marketplace no selling",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoMarketplaceForSellingAssets",
+      "/gap-no-marketplace-for-selling-assets"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:177",
+        "route": "/gap-no-marketplace-for-selling-assets",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoMarketplaceForSellingAssets.jsx",
+        "route": "/GapNoMarketplaceForSellingAssets",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Multi Tenant Studio Isolation",
+    "canonicalKey": "gap isolation multi no studio tenant",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoMultiTenantStudioIsolation",
+      "/gap-no-multi-tenant-studio-isolation"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:319",
+        "route": "/gap-no-multi-tenant-studio-isolation",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/GapNoMultiTenantStudioIsolation.jsx",
+        "route": "/GapNoMultiTenantStudioIsolation",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Payment Royalty Handling",
+    "canonicalKey": "gap handling no payment royalty",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPaymentRoyaltyHandling",
+      "/gap-no-payment-royalty-handling"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:180",
+        "route": "/gap-no-payment-royalty-handling",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoPaymentRoyaltyHandling.jsx",
+        "route": "/GapNoPaymentRoyaltyHandling",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Player Retention Intervention AI",
+    "canonicalKey": "ai gap intervention no player retention",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPlayerRetentionInterventionAi",
+      "/gap-no-player-retention-intervention-ai"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:312",
+        "route": "/gap-no-player-retention-intervention-ai",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/GapNoPlayerRetentionInterventionAi.jsx",
+        "route": "/GapNoPlayerRetentionInterventionAi",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Predictive Call Outcome Scoring Before Transfer",
+    "canonicalKey": "before call gap no outcome predictive scoring transfer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap-no-predictive-call-outcome-scoring-before-transfer"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/gap-no-predictive-call-outcome-scoring-before-transfer/page.tsx",
+        "route": "/gap-no-predictive-call-outcome-scoring-before-transfer",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Prompt Improvement Helper",
+    "canonicalKey": "gap helper improvement no prompt",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPromptImprovementHelper",
+      "/gap-no-prompt-improvement-helper"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:176",
+        "route": "/gap-no-prompt-improvement-helper",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoPromptImprovementHelper.jsx",
+        "route": "/GapNoPromptImprovementHelper",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Public Patch Notes Site",
+    "canonicalKey": "gap no notes patch public site",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPublicPatchNotesSite",
+      "/gap-no-public-patch-notes-site"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:317",
+        "route": "/gap-no-public-patch-notes-site",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/GapNoPublicPatchNotesSite.jsx",
+        "route": "/GapNoPublicPatchNotesSite",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Public Sharing Portfolio Pages",
+    "canonicalKey": "gap no portfolio public sharing",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPublicSharingPortfolioPages",
+      "/gap-no-public-sharing-portfolio-pages"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:181",
+        "route": "/gap-no-public-sharing-portfolio-pages",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoPublicSharingPortfolioPages.jsx",
+        "route": "/GapNoPublicSharingPortfolioPages",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Real Time Collaboration",
+    "canonicalKey": "collaboration gap no real time",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoRealTimeCollaboration",
+      "/gap-no-real-time-collaboration"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:183",
+        "route": "/gap-no-real-time-collaboration",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoRealTimeCollaboration.jsx",
+        "route": "/GapNoRealTimeCollaboration",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Real Time Voice Biometrics For Caller Verification",
+    "canonicalKey": "biometrics caller for gap no real time verification voice",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap-no-real-time-voice-biometrics-for-caller-verification"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/gap-no-real-time-voice-biometrics-for-caller-verification/page.tsx",
+        "route": "/gap-no-real-time-voice-biometrics-for-caller-verification",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Real Time Websocket Telemetry Streami",
+    "canonicalKey": "gap no real streami telemetry time websocket",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoRealTimeWebsocketTelemetryStreami",
+      "/gap-no-real-time-websocket-telemetry-streami"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:318",
+        "route": "/gap-no-real-time-websocket-telemetry-streami",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/GapNoRealTimeWebsocketTelemetryStreami.jsx",
+        "route": "/GapNoRealTimeWebsocketTelemetryStreami",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Scene Composition Endpoint Multi Asse",
+    "canonicalKey": "asse composition endpoint gap multi no scene",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoSceneCompositionEndpointMultiAsse",
+      "/gap-no-scene-composition-endpoint-multi-asse"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:175",
+        "route": "/gap-no-scene-composition-endpoint-multi-asse",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoSceneCompositionEndpointMultiAsse.jsx",
+        "route": "/GapNoSceneCompositionEndpointMultiAsse",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Sip Non Twilio Telephony Backend Currently Single Provider",
+    "canonicalKey": "backend currently gap no non provider single sip telephony twilio",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap-no-sip-non-twilio-telephony-backend-currently-single-provider"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/gap-no-sip-non-twilio-telephony-backend-currently-single-provider/page.tsx",
+        "route": "/gap-no-sip-non-twilio-telephony-backend-currently-single-provider",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Style Transfer Endpoint Apply Art",
+    "canonicalKey": "apply art endpoint gap no style transfer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoStyleTransferEndpointApplyArt",
+      "/gap-no-style-transfer-endpoint-apply-art"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:172",
+        "route": "/gap-no-style-transfer-endpoint-apply-art",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoStyleTransferEndpointApplyArt.jsx",
+        "route": "/GapNoStyleTransferEndpointApplyArt",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Surveyfocus Group Collection Beyond R",
+    "canonicalKey": "beyond collection gap group no r surveyfocus",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoSurveyfocusGroupCollectionBeyondR",
+      "/gap-no-surveyfocus-group-collection-beyond-r"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:316",
+        "route": "/gap-no-surveyfocus-group-collection-beyond-r",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/GapNoSurveyfocusGroupCollectionBeyondR.jsx",
+        "route": "/GapNoSurveyfocusGroupCollectionBeyondR",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Texture Refinement Endpoint",
+    "canonicalKey": "endpoint gap no refinement texture",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoTextureRefinementEndpoint",
+      "/gap-no-texture-refinement-endpoint"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:174",
+        "route": "/gap-no-texture-refinement-endpoint",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoTextureRefinementEndpoint.jsx",
+        "route": "/GapNoTextureRefinementEndpoint",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Webhook Dispatchers For Live Patch",
+    "canonicalKey": "dispatchers for gap live no patch webhook",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoWebhookDispatchersForLivePatch",
+      "/gap-no-webhook-dispatchers-for-live-patch"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:315",
+        "route": "/gap-no-webhook-dispatchers-for-live-patch",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/GapNoWebhookDispatchersForLivePatch.jsx",
+        "route": "/GapNoWebhookDispatchersForLivePatch",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Webhook Integration For Engine Sync",
+    "canonicalKey": "engine for gap integration no sync webhook",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoWebhookIntegrationForEngineSync",
+      "/gap-no-webhook-integration-for-engine-sync"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:178",
+        "route": "/gap-no-webhook-integration-for-engine-sync",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/GapNoWebhookIntegrationForEngineSync.jsx",
+        "route": "/GapNoWebhookIntegrationForEngineSync",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Win Rate Predictor For Post",
+    "canonicalKey": "for gap no post predictor rate win",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoWinRatePredictorForPost",
+      "/gap-no-win-rate-predictor-for-post"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:311",
+        "route": "/gap-no-win-rate-predictor-for-post",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/GapNoWinRatePredictorForPost.jsx",
+        "route": "/GapNoWinRatePredictorForPost",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Generate Batch",
+    "canonicalKey": "batch generate",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/generate-batch"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/ai.js:169",
+        "route": "/generate-batch",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Generation Rules",
+    "canonicalKey": "generation rule",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/generation-rules"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/customViews.js:236",
+        "route": "/generation-rules",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/customViews.js:247",
+        "route": "/generation-rules",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Hearing Test",
+    "canonicalKey": "hearing test",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/ai/hearing-test"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:70",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/hearing-test/page.tsx",
+        "route": "/ai/hearing-test",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Integrations",
+    "canonicalKey": "integration",
+    "aliases": [
+      "Platform Integration"
+    ],
+    "kinds": [
+      "model",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/integrations"
+    ],
+    "sourceProjects": [
+      "AIAdCopyCreativeGenerator",
+      "AIMusicRightsRoyaltyTracker",
+      "AIPharmaTrialDesigner",
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/esports-performance-analyzer",
+      "media-content-creative/game-balancing-playtesting-agent",
+      "media-content-creative/marketing-copy-generator",
+      "media-content-creative/music-generation"
+    ],
+    "evidence": [
+      {
+        "kind": "model",
+        "sourceProject": "AIMusicRightsRoyaltyTracker",
+        "path": "server/models/PlatformIntegration.js",
+        "route": "",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAdCopyCreativeGenerator",
+        "path": "frontend/src/App.jsx:61",
+        "route": "/integrations",
+        "originApp": "media-content-creative/marketing-copy-generator"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:43",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/integrations/page.tsx",
+        "route": "/integrations",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmaTrialDesigner",
+        "path": "frontend/src/App.js:163",
+        "route": "/integrations",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmaTrialDesigner",
+        "path": "frontend/src/components/Sidebar.js:66",
+        "route": "/integrations",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      }
+    ]
+  },
+  {
+    "name": "Intent Classifier",
+    "canonicalKey": "classifier intent",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/ai/intent-classifier"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:66",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/intent-classifier/page.tsx",
+        "route": "/ai/intent-classifier",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Layout",
+    "canonicalKey": "layout",
+    "aliases": [
+      "Layouts"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/",
+      "/layouts"
+    ],
+    "sourceProjects": [
+      "AISlideDeckGenerator",
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent",
+      "media-content-creative/marketing-copy-generator"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AISlideDeckGenerator",
+        "path": "frontend/src/App.js:89",
+        "route": "/layouts",
+        "originApp": "media-content-creative/marketing-copy-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISlideDeckGenerator",
+        "path": "frontend/src/pages/Dashboard.js:11",
+        "route": "/layouts",
+        "originApp": "media-content-creative/marketing-copy-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(auth)/layout.tsx",
+        "route": "/",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/layout.tsx",
+        "route": "/",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/layout.tsx",
+        "route": "/",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Limited Billing Metering Granularity For AI Usage",
+    "canonicalKey": "ai billing for granularity limited metering usage",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:60",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Limited CRM Integration Depth Integrations Layer",
+    "canonicalKey": "crm depth integration integrations layer limited",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:58",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Lipsync Engine",
+    "canonicalKey": "engine lipsync",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/voicestudio/lipsyncEngine"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:78",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/lipsyncEngine/page.tsx",
+        "route": "/voicestudio/lipsyncEngine",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Loading",
+    "canonicalKey": "loading",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ai/accent-adapter/loading",
+      "/ai/emotion-detector/loading",
+      "/ai/hearing-test/loading",
+      "/ai/intent-classifier/loading",
+      "/ai/multi-language/loading",
+      "/ai/speech-enhancer/loading",
+      "/ai/translator/loading",
+      "/loading"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/accent-adapter/loading.tsx",
+        "route": "/ai/accent-adapter/loading",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/emotion-detector/loading.tsx",
+        "route": "/ai/emotion-detector/loading",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/hearing-test/loading.tsx",
+        "route": "/ai/hearing-test/loading",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/intent-classifier/loading.tsx",
+        "route": "/ai/intent-classifier/loading",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/multi-language/loading.tsx",
+        "route": "/ai/multi-language/loading",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/speech-enhancer/loading.tsx",
+        "route": "/ai/speech-enhancer/loading",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/translator/loading.tsx",
+        "route": "/ai/translator/loading",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/loading.tsx",
+        "route": "/loading",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Logs",
+    "canonicalKey": "logs",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/logs"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/sessions.js:146",
+        "route": "/:id/logs",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/sessions.js:173",
+        "route": "/:id/logs",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Long Term Contextual Conversation Memory Across Se",
+    "canonicalKey": "across contextual conversation long memory se term",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:48",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Loot Hoard",
+    "canonicalKey": "hoard loot",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/loot-hoard"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/ai.js:64",
+        "route": "/loot-hoard",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Meta",
+    "canonicalKey": "meta",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/meta"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:128",
+        "route": "/meta",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Meta Analyze",
+    "canonicalKey": "analyze meta",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/meta-analyze"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:180",
+        "route": "/meta-analyze",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Monsters",
+    "canonicalKey": "monster",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/monsters"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/customViews.js:383",
+        "route": "/monsters",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Mood Advisor",
+    "canonicalKey": "advisor mood",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/mood-advisor"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/ai.js:44",
+        "route": "/mood-advisor",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Multi Language",
+    "canonicalKey": "language multi",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/ai/multi-language"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:68",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/multi-language/page.tsx",
+        "route": "/ai/multi-language",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Multi Language Code Switching For Mixed Conversati",
+    "canonicalKey": "code conversati for language mixed multi switching",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:50",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Multilingual Dubbing",
+    "canonicalKey": "dubbing multilingual",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/voicestudio/multilingualDubbing"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:79",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/multilingualDubbing/page.tsx",
+        "route": "/voicestudio/multilingualDubbing",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "New",
+    "canonicalKey": "new",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/agents/new",
+      "/designs/new",
+      "/furniture/new",
+      "/palettes/new",
+      "/shopping/new",
+      "/voicestudio/avatarRender/new",
+      "/voicestudio/consentLedger/new",
+      "/voicestudio/lipsyncEngine/new",
+      "/voicestudio/multilingualDubbing/new",
+      "/voicestudio/ttsStyleControl/new",
+      "/voicestudio/voiceCloneEnroll/new",
+      "/voicestudio/watermarkProvenance/new"
+    ],
+    "sourceProjects": [
+      "AiInteriorDesign",
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent",
+      "media-content-creative/logo-brand-kit-generator"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AiInteriorDesign",
+        "path": "frontend/src/App.jsx:4071",
+        "route": "/designs/new",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiInteriorDesign",
+        "path": "frontend/src/App.jsx:4076",
+        "route": "/furniture/new",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiInteriorDesign",
+        "path": "frontend/src/App.jsx:4079",
+        "route": "/palettes/new",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiInteriorDesign",
+        "path": "frontend/src/App.jsx:4087",
+        "route": "/shopping/new",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/agents/new/page.tsx",
+        "route": "/agents/new",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/avatarRender/new/page.tsx",
+        "route": "/voicestudio/avatarRender/new",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/consentLedger/new/page.tsx",
+        "route": "/voicestudio/consentLedger/new",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/lipsyncEngine/new/page.tsx",
+        "route": "/voicestudio/lipsyncEngine/new",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/multilingualDubbing/new/page.tsx",
+        "route": "/voicestudio/multilingualDubbing/new",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/ttsStyleControl/new/page.tsx",
+        "route": "/voicestudio/ttsStyleControl/new",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/voiceCloneEnroll/new/page.tsx",
+        "route": "/voicestudio/voiceCloneEnroll/new",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/watermarkProvenance/new/page.tsx",
+        "route": "/voicestudio/watermarkProvenance/new",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Next Round",
+    "canonicalKey": "next round",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/next-round"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/combat.js:93",
+        "route": "/:id/next-round",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No AI Map Dungeon Image Generation Page",
+    "canonicalKey": "ai dungeon generation image map no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoAiMapDungeonImageGenerationPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/NoAiMapDungeonImageGenerationPage.jsx",
+        "route": "/NoAiMapDungeonImageGenerationPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No AI Npc Voice Generation Tts Page",
+    "canonicalKey": "ai generation no npc tts voice",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoAiNpcVoiceGenerationTtsPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/NoAiNpcVoiceGenerationTtsPage.jsx",
+        "route": "/NoAiNpcVoiceGenerationTtsPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No AI Rules Arbitration Co Pilot During Play Page",
+    "canonicalKey": "ai arbitration co during no pilot play rules",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoAiRulesArbitrationCoPilotDuringPlayPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/NoAiRulesArbitrationCoPilotDuringPlayPage.jsx",
+        "route": "/NoAiRulesArbitrationCoPilotDuringPlayPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No AI Session Recap Summarization Page",
+    "canonicalKey": "ai no recap session summarization",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoAiSessionRecapSummarizationPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/NoAiSessionRecapSummarizationPage.jsx",
+        "route": "/NoAiSessionRecapSummarizationPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No Conversation Transcript Full Text Search",
+    "canonicalKey": "conversation full no search text transcript",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:59",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No Discord Voice Chat Integration Page",
+    "canonicalKey": "chat discord integration no voice",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoDiscordVoiceChatIntegrationPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/NoDiscordVoiceChatIntegrationPage.jsx",
+        "route": "/NoDiscordVoiceChatIntegrationPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No Export Of Campaign Archives Pdf Json Page",
+    "canonicalKey": "archives campaign export json no of pdf",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoExportOfCampaignArchivesPdfJsonPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/NoExportOfCampaignArchivesPdfJsonPage.jsx",
+        "route": "/NoExportOfCampaignArchivesPdfJsonPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No Notification System For Session Reminders Page",
+    "canonicalKey": "for no notification reminders session",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoNotificationSystemForSessionRemindersPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/NoNotificationSystemForSessionRemindersPage.jsx",
+        "route": "/NoNotificationSystemForSessionRemindersPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No Player Marketplace For Homebrew Content Page",
+    "canonicalKey": "content for homebrew marketplace no player",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoPlayerMarketplaceForHomebrewContentPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/NoPlayerMarketplaceForHomebrewContentPage.jsx",
+        "route": "/NoPlayerMarketplaceForHomebrewContentPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No Predictive Call Outcome Scoring Before Transfer",
+    "canonicalKey": "before call no outcome predictive scoring transfer",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:56",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No Real Time Voice Biometrics For Caller Verificat",
+    "canonicalKey": "biometrics caller for no real time verificat voice",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:55",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No Sip Non Twilio Telephony Backend Currently Sin",
+    "canonicalKey": "backend currently no non sin sip telephony twilio",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:57",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No Virtual Tabletop Vtt Interactive Board Page",
+    "canonicalKey": "board interactive no tabletop virtual vtt",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoVirtualTabletopVttInteractiveBoardPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/NoVirtualTabletopVttInteractiveBoardPage.jsx",
+        "route": "/NoVirtualTabletopVttInteractiveBoardPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "No Webhook Outbound API Page",
+    "canonicalKey": "api no outbound webhook",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/NoWebhookOutboundApiPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/NoWebhookOutboundApiPage.jsx",
+        "route": "/NoWebhookOutboundApiPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Patch Notes Generate",
+    "canonicalKey": "generate notes patch",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai/patch-notes-generate",
+      "/patch-notes-generate"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:387",
+        "route": "/patch-notes-generate",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:122",
+        "route": "/ai/patch-notes-generate",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Phone",
+    "canonicalKey": "phone",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/phone"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/phone/page.tsx",
+        "route": "/phone",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Phone Numbers",
+    "canonicalKey": "number phone",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:41",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Player Profiles",
+    "canonicalKey": "player profile",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/player-profiles"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:174",
+        "route": "/player-profiles",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Playtest Analyze",
+    "canonicalKey": "analyze playtest",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/playtest-analyze"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:29",
+        "route": "/playtest-analyze",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Playtests",
+    "canonicalKey": "playtest",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/playtests"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:41",
+        "route": "/playtests",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Pool",
+    "canonicalKey": "pool",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "pool"
+    ],
+    "sourceProjects": [
+      "AIEsportsPerformanceAnalyzer",
+      "AIEventPlanner",
+      "AIGameAssetGenerator",
+      "AIGameBalancingPlaytestingAgent",
+      "AIInfluencerManagementPlatform",
+      "AiImageGeneration",
+      "AiInteriorDesign"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/esports-performance-analyzer",
+      "media-content-creative/event-planner",
+      "media-content-creative/game-balancing-playtesting-agent",
+      "media-content-creative/logo-brand-kit-generator",
+      "media-content-creative/music-generation"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-active-prompt-improvement-ai-only.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-collaboration-shared-workspaces.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-image-marketplace-royalty-tracking.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-live-generate-image-endpoint-only.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-payment-processing-surface-beyond-str.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-public-profileportfolio-pages.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-real-style-transfer-execution.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-upscaling-execution.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-variation-execution.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-webhook-surface.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-live-vendorcontractor-integrations-still.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-3d-model-library-expansion-beyond.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-accessibility-recommender.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-file-upload-pipeline-for-floor.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-native-ar-mobile-app-only.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-notifications-module-0-references.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-room-layout-optimizer.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-sustainability-scoring-ai.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-trend-forecaster-endpoint.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-webhook-surface.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-animation-generation-endpoint-rigging.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-file-upload-pipeline-detected-beyond.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-game-engine-export-unity-unreal.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-marketplace-for-selling-assets.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-payment-royalty-handling.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-prompt-improvement-helper.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-public-sharing-portfolio-pages.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-real-time-collaboration.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-scene-composition-endpoint-multi-asse.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-style-transfer-endpoint-apply-art.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-texture-refinement-endpoint.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/gap-no-webhook-integration-for-engine-sync.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/gap-no-automated-patch-note-generator.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/gap-no-balance-simulation-monte-carlo-endpoi.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/gap-no-multi-tenant-studio-isolation.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/gap-no-player-retention-intervention-ai.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/gap-no-public-patch-notes-site.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/gap-no-real-time-websocket-telemetry-streami.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/gap-no-surveyfocus-group-collection-beyond-r.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/gap-no-webhook-dispatchers-for-live-patch.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/gap-no-win-rate-predictor-for-post.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIEsportsPerformanceAnalyzer",
+        "path": "backend/routes/batch03Gaps.js:53",
+        "route": "pool",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-live-social-media-api-integrations-are.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-audience-segmentation-ai-audiencejs-i.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-content-calendar-trend-ai.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-e-signature-for-contracts.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-fake-follower-fraud-detector.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-file-upload-for-content-briefs.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-notification-engine-0-references.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-performance-prediction-model.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-webhook-receivers-for-engagement-even.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIEventPlanner",
+        "path": "backend/routes/batch03Gaps.js:53",
+        "route": "pool",
+        "originApp": "media-content-creative/event-planner"
+      }
+    ]
+  },
+  {
+    "name": "Power Creep Sentinel",
+    "canonicalKey": "creep power sentinel",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/PowerCreepSentinel",
+      "/power-creep-sentinel"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:142",
+        "route": "/power-creep-sentinel",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:300",
+        "route": "/power-creep-sentinel",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/PowerCreepSentinel.jsx",
+        "route": "/PowerCreepSentinel",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Predict",
+    "canonicalKey": "predict",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/predict"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/esportsMetaPredictor.js:18",
+        "route": "/predict",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Progression",
+    "canonicalKey": "progression",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/progression"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:98",
+        "route": "/progression",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Progression Analyze",
+    "canonicalKey": "analyze progression",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/progression-analyze"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:129",
+        "route": "/progression-analyze",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Puzzle",
+    "canonicalKey": "puzzle",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/puzzle"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/ai.js:94",
+        "route": "/puzzle",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Rag Over Rulebooks Dd5E Pathfinder Etc For Insta Page",
+    "canonicalKey": "dd5e etc for insta over pathfinder rag rulebooks",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/RagOverRulebooksDD5ePathfinderEtcForInstaPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/RagOverRulebooksDD5ePathfinderEtcForInstaPage.jsx",
+        "route": "/RagOverRulebooksDD5ePathfinderEtcForInstaPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Random Event",
+    "canonicalKey": "event random",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/random-event"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/ai.js:79",
+        "route": "/random-event",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Real Time Sentiment Intervention Coaching Agents M",
+    "canonicalKey": "agents coaching intervention m real sentiment time",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:51",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Recent",
+    "canonicalKey": "recent",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/recent"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent",
+      "AIInfluencerManagementPlatform"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/esports-performance-analyzer",
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/esportsMetaPredictor.js:60",
+        "route": "/recent",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/fakeFollowerDetector.js:85",
+        "route": "/recent",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      }
+    ]
+  },
+  {
+    "name": "Retention Intervention",
+    "canonicalKey": "intervention retention",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai/retention-intervention",
+      "/retention-intervention"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:265",
+        "route": "/retention-intervention",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:106",
+        "route": "/ai/retention-intervention",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Reveal",
+    "canonicalKey": "reveal",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/reveal"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/lore.js:94",
+        "route": "/:id/reveal",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Roll",
+    "canonicalKey": "roll",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/roll"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/dice.js:9",
+        "route": "/roll",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Roll Initiative",
+    "canonicalKey": "initiative roll",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/roll-initiative"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/combat.js:67",
+        "route": "/:id/roll-initiative",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Roll Many",
+    "canonicalKey": "many roll",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/roll-many"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/dice.js:26",
+        "route": "/roll-many",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Rule Lookup",
+    "canonicalKey": "lookup rule",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/rule-lookup"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/ai.js:25",
+        "route": "/rule-lookup",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Runs",
+    "canonicalKey": "runs",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/runs"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/agenticPlaytestBots.js:81",
+        "route": "/runs",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Sample Size",
+    "canonicalKey": "sample size",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/sample-size"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/abCohorts.js:135",
+        "route": "/sample-size",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Scenario",
+    "canonicalKey": "scenario",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/:id/ai/scenario",
+      "/scenarios"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster",
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/boardgames.js:171",
+        "route": "/:id/ai/scenario",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:189",
+        "route": "/scenarios",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Scene Composition",
+    "canonicalKey": "composition scene",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/api/ai/scene-composition",
+      "/scene-composition"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/ai.js:287",
+        "route": "/scene-composition",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/AIToolsPage.jsx:78",
+        "route": "/api/ai/scene-composition",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Sessions",
+    "canonicalKey": "session",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/:id/sessions",
+      "/coaching/sessions",
+      "/sessions",
+      "/streaming/sessions"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster",
+      "AIEventPlanner",
+      "AIGameBalancingPlaytestingAgent",
+      "AIPlagiarismAIContentDetector"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/content-studio",
+      "media-content-creative/event-planner",
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPlagiarismAIContentDetector",
+        "path": "server/routes/extensions.js:153",
+        "route": "/coaching/sessions",
+        "originApp": "media-content-creative/content-studio"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPlagiarismAIContentDetector",
+        "path": "server/routes/extensions.js:170",
+        "route": "/coaching/sessions",
+        "originApp": "media-content-creative/content-studio"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/boardgames.js:101",
+        "route": "/:id/sessions",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/boardgames.js:88",
+        "route": "/:id/sessions",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:249",
+        "route": "/sessions",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIEventPlanner",
+        "path": "backend/routes/integrations.js:189",
+        "route": "/streaming/sessions",
+        "originApp": "media-content-creative/event-planner"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIEventPlanner",
+        "path": "backend/routes/integrations.js:216",
+        "route": "/streaming/sessions",
+        "originApp": "media-content-creative/event-planner"
+      }
+    ]
+  },
+  {
+    "name": "Share Id",
+    "canonicalKey": "id share",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/shares/:shareId"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/assetComments.js:100",
+        "route": "/shares/:shareId",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Speech Enhancer",
+    "canonicalKey": "enhancer speech",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/ai/speech-enhancer"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:64",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/speech-enhancer/page.tsx",
+        "route": "/ai/speech-enhancer",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Sprite Atlas Budget",
+    "canonicalKey": "atlas budget sprite",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/SpriteAtlasBudget",
+      "/sprite-atlas-budget"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/App.jsx:160",
+        "route": "/sprite-atlas-budget",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/SpriteAtlasBudget.jsx",
+        "route": "/SpriteAtlasBudget",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Standard",
+    "canonicalKey": "standard",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/standard"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/dice.js:44",
+        "route": "/standard",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Streaming Narrative Engine Reacting To In Session Page",
+    "canonicalKey": "engine in narrative reacting session streaming to",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/StreamingNarrativeEngineReactingToInSessionPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/StreamingNarrativeEngineReactingToInSessionPage.jsx",
+        "route": "/StreamingNarrativeEngineReactingToInSessionPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Tavern",
+    "canonicalKey": "tavern",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/tavern"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/ai.js:108",
+        "route": "/tavern",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Teaching Script",
+    "canonicalKey": "script teaching",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/boardgames/teaching-script"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/ai.js:121",
+        "route": "/boardgames/teaching-script",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Tournament Bracket",
+    "canonicalKey": "bracket tournament",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/boardgames/tournament-bracket"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "backend/src/routes/ai.js:134",
+        "route": "/boardgames/tournament-bracket",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Tts Style Control",
+    "canonicalKey": "control style tts",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/voicestudio/ttsStyleControl"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:76",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/ttsStyleControl/page.tsx",
+        "route": "/voicestudio/ttsStyleControl",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Version Id",
+    "canonicalKey": "id version",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:type/:id/restore/:versionId",
+      "/version/:versionId"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator",
+      "AiContentStudio"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/content-studio",
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AiContentStudio",
+        "path": "backend/src/routes/versions.js:79",
+        "route": "/:type/:id/restore/:versionId",
+        "originApp": "media-content-creative/content-studio"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/assetVersions.js:83",
+        "route": "/version/:versionId",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Voice Clone Enroll",
+    "canonicalKey": "clone enroll voice",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/voicestudio/voiceCloneEnroll"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:74",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/voiceCloneEnroll/page.tsx",
+        "route": "/voicestudio/voiceCloneEnroll",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Watermark Provenance",
+    "canonicalKey": "provenance watermark",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/voicestudio/watermarkProvenance"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:80",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/voicestudio/watermarkProvenance/page.tsx",
+        "route": "/voicestudio/watermarkProvenance",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "White Label Vtt For Indie Game Publishers To Ship Page",
+    "canonicalKey": "for game indie label publishers ship to vtt white",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/WhiteLabelVttForIndieGamePublishersToShipPage"
+    ],
+    "sourceProjects": [
+      "AIBoardGameTTRPGGameMaster"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBoardGameTTRPGGameMaster",
+        "path": "frontend/src/pages/WhiteLabelVttForIndieGamePublishersToShipPage.jsx",
+        "route": "/WhiteLabelVttForIndieGamePublishersToShipPage",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Win Rate Predict",
+    "canonicalKey": "predict rate win",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai/win-rate-predict",
+      "/win-rate-predict"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:227",
+        "route": "/win-rate-predict",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:103",
+        "route": "/ai/win-rate-predict",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  }
+]

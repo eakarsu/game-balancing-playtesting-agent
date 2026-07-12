@@ -1,0 +1,30 @@
+{
+  "id": "game-balancing-playtesting-agent",
+  "title": "Game Balancing Playtesting Agent App",
+  "industry": "Media, Content & Creative",
+  "industryId": "media-content-creative",
+  "specialization": "Game Balancing Playtesting Agent",
+  "sourcePlatformGroup": "media-content-platform",
+  "sources": [
+    "AIBoardGameTTRPGGameMaster",
+    "AIGameAssetGenerator",
+    "AIGameBalancingPlaytestingAgent",
+    "aIVoiceAgent"
+  ],
+  "featureCount": 179,
+  "candidateFeatureCount": 243,
+  "eliminatedSimilarFeatures": 64,
+  "evidenceCount": 337,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 1,
+    "seededTables": 16,
+    "seededRows": 240
+  },
+  "visibleFeatureCount": 9,
+  "featureVisibilityMode": "seeded-or-ai"
+}
