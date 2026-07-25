@@ -3,7 +3,7 @@
 Industry: **Media, Content & Creative**  
 Specialization: **Game Balancing Playtesting Agent**
 
-This standalone application consolidates source-backed capabilities into 171 optimized features, including 9 visible data-backed or AI-enabled views. Its public demo SQLite database contains 240 sanitized source rows across 16 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 178 optimized features, including 29 visible data-backed or AI-enabled views. Its public demo SQLite database contains 240 sanitized source rows across 16 imported tables and 120 operational workflow records.
 
 ## Run locally
 

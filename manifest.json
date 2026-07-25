@@ -11,12 +11,12 @@
     "AIGameBalancingPlaytestingAgent",
     "aIVoiceAgent"
   ],
-  "featureCount": 171,
-  "candidateFeatureCount": 238,
-  "eliminatedSimilarFeatures": 67,
-  "evidenceCount": 335,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "featureCount": 178,
+  "candidateFeatureCount": 243,
+  "eliminatedSimilarFeatures": 65,
+  "evidenceCount": 364,
+  "aiPageCount": 26,
+  "sourceAIPageCount": 26,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 16,
     "seededRows": 240
   },
-  "visibleFeatureCount": 9,
+  "visibleFeatureCount": 29,
   "featureVisibilityMode": "seeded-or-ai"
 }

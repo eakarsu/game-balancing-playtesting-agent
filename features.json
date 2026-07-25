@@ -56,11 +56,13 @@
     "canonicalKey": "ab design test",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
       "/ab-test-design",
+      "/ai-predictions?tool=ab-test-design",
       "/ai/ab-test-design"
     ],
     "sourceProjects": [
@@ -70,6 +72,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:1",
+        "route": "/ai-predictions?tool=ab-test-design",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "api",
         "sourceProject": "AIGameBalancingPlaytestingAgent",
@@ -91,10 +100,12 @@
     "canonicalKey": "accent adapter",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/ai/accent-adapter"
+      "/ai/accent-adapter",
+      "/ai/accent-adapter?tool=accent-adapter"
     ],
     "sourceProjects": [
       "aIVoiceAgent"
@@ -103,6 +114,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/accent-adapter/page.tsx:1",
+        "route": "/ai/accent-adapter?tool=accent-adapter",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -189,6 +207,32 @@
     ]
   },
   {
+    "name": "Agent Performance",
+    "canonicalKey": "agent performance",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/backlog?tool=agent-performance"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/backlog/page.tsx:1",
+        "route": "/ai/backlog?tool=agent-performance",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
     "name": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page",
     "canonicalKey": "agentic co encounter gm pilot runs that to track",
     "aliases": [],
@@ -244,6 +288,32 @@
         "sourceProject": "aIVoiceAgent",
         "path": "src/app/(dashboard)/agents/page.tsx",
         "route": "/agents",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "AI Playtesting",
+    "canonicalKey": "ai playtesting",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/playtests"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:41",
+        "route": "/ai/playtests",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       }
     ]
@@ -686,10 +756,12 @@
     "canonicalKey": "balance simulate",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
+      "/ai-predictions?tool=balance-simulate",
       "/ai/balance-simulate",
       "/balance-simulate"
     ],
@@ -700,6 +772,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:1",
+        "route": "/ai-predictions?tool=balance-simulate",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "api",
         "sourceProject": "AIGameBalancingPlaytestingAgent",
@@ -1531,6 +1610,32 @@
     ]
   },
   {
+    "name": "Conversation Memory",
+    "canonicalKey": "conversation memory",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/backlog?tool=conversation-memory"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/backlog/page.tsx:1",
+        "route": "/ai/backlog?tool=conversation-memory",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
     "name": "Dialogue",
     "canonicalKey": "dialogue",
     "aliases": [],
@@ -1691,10 +1796,12 @@
     "canonicalKey": "detector emotion",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/ai/emotion-detector"
+      "/ai/emotion-detector",
+      "/ai/emotion-detector?tool=emotion-detector"
     ],
     "sourceProjects": [
       "aIVoiceAgent"
@@ -1703,6 +1810,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/emotion-detector/page.tsx:1",
+        "route": "/ai/emotion-detector?tool=emotion-detector",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -2068,10 +2182,12 @@
     "canonicalKey": "cluster feedback",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
+      "/ai-predictions?tool=feedback-cluster",
       "/ai/feedback-cluster",
       "/feedback-cluster"
     ],
@@ -2082,6 +2198,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:1",
+        "route": "/ai-predictions?tool=feedback-cluster",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "api",
         "sourceProject": "AIGameBalancingPlaytestingAgent",
@@ -3136,10 +3259,12 @@
     "canonicalKey": "hearing test",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/ai/hearing-test"
+      "/ai/hearing-test",
+      "/ai/hearing-test?tool=hearing-test"
     ],
     "sourceProjects": [
       "aIVoiceAgent"
@@ -3148,6 +3273,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/hearing-test/page.tsx:1",
+        "route": "/ai/hearing-test?tool=hearing-test",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -3295,10 +3427,12 @@
     "canonicalKey": "classifier intent",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/ai/intent-classifier"
+      "/ai/intent-classifier",
+      "/ai/intent-classifier?tool=intent-classifier"
     ],
     "sourceProjects": [
       "aIVoiceAgent"
@@ -3308,10 +3442,43 @@
     ],
     "evidence": [
       {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/intent-classifier/page.tsx:1",
+        "route": "/ai/intent-classifier?tool=intent-classifier",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
         "path": "src/app/(dashboard)/ai/intent-classifier/page.tsx",
         "route": "/ai/intent-classifier",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Intent Classifier Page Size 100",
+    "canonicalKey": "100 classifier intent size",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/intent-classifier?tool=intent-classifier-page-size-100"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/intent-classifier/page.tsx:1",
+        "route": "/ai/intent-classifier?tool=intent-classifier-page-size-100",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       }
     ]
@@ -3685,10 +3852,12 @@
     "canonicalKey": "language multi",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/ai/multi-language"
+      "/ai/multi-language",
+      "/ai/multi-language?tool=multi-language"
     ],
     "sourceProjects": [
       "aIVoiceAgent"
@@ -3697,6 +3866,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/multi-language/page.tsx:1",
+        "route": "/ai/multi-language?tool=multi-language",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -4139,10 +4315,12 @@
     "canonicalKey": "generate note patch",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
+      "/ai-predictions?tool=patch-notes-generate",
       "/ai/patch-notes-generate",
       "/patch-notes-generate"
     ],
@@ -4153,6 +4331,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:1",
+        "route": "/ai-predictions?tool=patch-notes-generate",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "api",
         "sourceProject": "AIGameBalancingPlaytestingAgent",
@@ -4758,6 +4943,80 @@
     ]
   },
   {
+    "name": "Process",
+    "canonicalKey": "process",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/accent-adapter?tool=process",
+      "/ai/emotion-detector?tool=process",
+      "/ai/hearing-test?tool=process",
+      "/ai/intent-classifier?tool=process",
+      "/ai/multi-language?tool=process",
+      "/ai/speech-enhancer?tool=process",
+      "/ai/translator?tool=process"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/accent-adapter/page.tsx:1",
+        "route": "/ai/accent-adapter?tool=process",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/emotion-detector/page.tsx:1",
+        "route": "/ai/emotion-detector?tool=process",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/hearing-test/page.tsx:1",
+        "route": "/ai/hearing-test?tool=process",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/intent-classifier/page.tsx:1",
+        "route": "/ai/intent-classifier?tool=process",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/multi-language/page.tsx:1",
+        "route": "/ai/multi-language?tool=process",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/speech-enhancer/page.tsx:1",
+        "route": "/ai/speech-enhancer?tool=process",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/translator/page.tsx:1",
+        "route": "/ai/translator?tool=process",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
     "name": "Progression",
     "canonicalKey": "progression",
     "aliases": [],
@@ -4927,10 +5186,12 @@
     "canonicalKey": "intervention retention",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
+      "/ai-predictions?tool=retention-intervention",
       "/ai/retention-intervention",
       "/retention-intervention"
     ],
@@ -4941,6 +5202,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:1",
+        "route": "/ai-predictions?tool=retention-intervention",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "api",
         "sourceProject": "AIGameBalancingPlaytestingAgent",
@@ -5206,10 +5474,12 @@
     "canonicalKey": "composition scene",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
+      "/ai-tools?tool=scene-composition",
       "/api/ai/scene-composition",
       "/scene-composition"
     ],
@@ -5220,6 +5490,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/AIToolsPage.jsx:1",
+        "route": "/ai-tools?tool=scene-composition",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "api",
         "sourceProject": "AIGameAssetGenerator",
@@ -5391,10 +5668,12 @@
     "canonicalKey": "enhancer speech",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/ai/speech-enhancer"
+      "/ai/speech-enhancer",
+      "/ai/speech-enhancer?tool=speech-enhancer"
     ],
     "sourceProjects": [
       "aIVoiceAgent"
@@ -5403,6 +5682,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/speech-enhancer/page.tsx:1",
+        "route": "/ai/speech-enhancer?tool=speech-enhancer",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -5499,6 +5785,50 @@
     ]
   },
   {
+    "name": "Style Transfer",
+    "canonicalKey": "style transfer",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai-tools?tool=style-transfer",
+      "/api/ai/style-transfer",
+      "/style-transfer"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/AIToolsPage.jsx:1",
+        "route": "/ai-tools?tool=style-transfer",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/routes/ai.js:242",
+        "route": "/style-transfer",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "frontend/src/pages/AIToolsPage.jsx:71",
+        "route": "/api/ai/style-transfer",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
     "name": "Tavern",
     "canonicalKey": "tavern",
     "aliases": [],
@@ -5572,6 +5902,41 @@
         "sourceProject": "AIBoardGameTTRPGGameMaster",
         "path": "backend/src/routes/ai.js:134",
         "route": "/boardgames/tournament-bracket",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Translator",
+    "canonicalKey": "translator",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "page"
+    ],
+    "routes": [
+      "/ai/translator",
+      "/ai/translator?tool=translator"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/translator/page.tsx:1",
+        "route": "/ai/translator?tool=translator",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/ai/translator/page.tsx",
+        "route": "/ai/translator",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       }
     ]
@@ -5721,10 +6086,12 @@
     "canonicalKey": "predict rate win",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
+      "/ai-predictions?tool=win-rate-predict",
       "/ai/win-rate-predict",
       "/win-rate-predict"
     ],
@@ -5735,6 +6102,13 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx:1",
+        "route": "/ai-predictions?tool=win-rate-predict",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
       {
         "kind": "api",
         "sourceProject": "AIGameBalancingPlaytestingAgent",
