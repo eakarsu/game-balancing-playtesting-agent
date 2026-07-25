@@ -1,0 +1,1951 @@
+{
+  "version": 1,
+  "appId": "game-balancing-playtesting-agent",
+  "workflows": [
+    {
+      "id": "request-intake",
+      "title": "Ab And Patches Request Intake",
+      "description": "Manage request intake for Ab And Patches within Game Balancing Playtesting Agent, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Ab And Patches Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "draft",
+        "submitted",
+        "triage",
+        "accepted",
+        "rejected"
+      ],
+      "transitions": [
+        {
+          "id": "submit",
+          "label": "Submit Request",
+          "from": [
+            "draft"
+          ],
+          "to": "submitted"
+        },
+        {
+          "id": "triage",
+          "label": "Start Triage",
+          "from": [
+            "submitted"
+          ],
+          "to": "triage"
+        },
+        {
+          "id": "accept",
+          "label": "Accept Request",
+          "from": [
+            "triage"
+          ],
+          "to": "accepted"
+        },
+        {
+          "id": "reject",
+          "label": "Reject Request",
+          "from": [
+            "submitted",
+            "triage"
+          ],
+          "to": "rejected"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "request-intake-001",
+          "state": "draft",
+          "reference": "GAMBALPLA-0001",
+          "subject": "Ab And Patches — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo request intake record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-002",
+          "state": "draft",
+          "reference": "GAMBALPLA-0002",
+          "subject": "Ab And Patches — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo request intake record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-003",
+          "state": "draft",
+          "reference": "GAMBALPLA-0003",
+          "subject": "Ab And Patches — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo request intake record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-004",
+          "state": "draft",
+          "reference": "GAMBALPLA-0004",
+          "subject": "Ab And Patches — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo request intake record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-005",
+          "state": "draft",
+          "reference": "GAMBALPLA-0005",
+          "subject": "Ab And Patches — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo request intake record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-006",
+          "state": "draft",
+          "reference": "GAMBALPLA-0006",
+          "subject": "Ab And Patches — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo request intake record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-007",
+          "state": "draft",
+          "reference": "GAMBALPLA-0007",
+          "subject": "Ab And Patches — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo request intake record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-008",
+          "state": "draft",
+          "reference": "GAMBALPLA-0008",
+          "subject": "Ab And Patches — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo request intake record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-009",
+          "state": "draft",
+          "reference": "GAMBALPLA-0009",
+          "subject": "Ab And Patches — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo request intake record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-010",
+          "state": "draft",
+          "reference": "GAMBALPLA-0010",
+          "subject": "Ab And Patches — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo request intake record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-011",
+          "state": "draft",
+          "reference": "GAMBALPLA-0011",
+          "subject": "Ab And Patches — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo request intake record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-012",
+          "state": "draft",
+          "reference": "GAMBALPLA-0012",
+          "subject": "Ab And Patches — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo request intake record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-013",
+          "state": "draft",
+          "reference": "GAMBALPLA-0013",
+          "subject": "Ab And Patches — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo request intake record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-014",
+          "state": "draft",
+          "reference": "GAMBALPLA-0014",
+          "subject": "Ab And Patches — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo request intake record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "request-intake-015",
+          "state": "draft",
+          "reference": "GAMBALPLA-0015",
+          "subject": "Ab And Patches — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo request intake record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "operations-queue",
+      "title": "Ab Patches Operations Queue",
+      "description": "Manage operations queue for Ab Patches within Game Balancing Playtesting Agent, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Ab Patches Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "queued",
+        "assigned",
+        "in-progress",
+        "blocked",
+        "complete"
+      ],
+      "transitions": [
+        {
+          "id": "assign",
+          "label": "Assign Work",
+          "from": [
+            "queued"
+          ],
+          "to": "assigned"
+        },
+        {
+          "id": "start",
+          "label": "Start Work",
+          "from": [
+            "assigned"
+          ],
+          "to": "in-progress"
+        },
+        {
+          "id": "block",
+          "label": "Record Blocker",
+          "from": [
+            "assigned",
+            "in-progress"
+          ],
+          "to": "blocked"
+        },
+        {
+          "id": "complete",
+          "label": "Complete Work",
+          "from": [
+            "in-progress",
+            "blocked"
+          ],
+          "to": "complete"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "operations-queue-001",
+          "state": "queued",
+          "reference": "GAMBALPLA-0001",
+          "subject": "Ab Patches — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo operations queue record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-002",
+          "state": "queued",
+          "reference": "GAMBALPLA-0002",
+          "subject": "Ab Patches — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo operations queue record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-003",
+          "state": "queued",
+          "reference": "GAMBALPLA-0003",
+          "subject": "Ab Patches — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo operations queue record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-004",
+          "state": "queued",
+          "reference": "GAMBALPLA-0004",
+          "subject": "Ab Patches — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo operations queue record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-005",
+          "state": "queued",
+          "reference": "GAMBALPLA-0005",
+          "subject": "Ab Patches — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo operations queue record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-006",
+          "state": "queued",
+          "reference": "GAMBALPLA-0006",
+          "subject": "Ab Patches — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo operations queue record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-007",
+          "state": "queued",
+          "reference": "GAMBALPLA-0007",
+          "subject": "Ab Patches — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo operations queue record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-008",
+          "state": "queued",
+          "reference": "GAMBALPLA-0008",
+          "subject": "Ab Patches — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo operations queue record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-009",
+          "state": "queued",
+          "reference": "GAMBALPLA-0009",
+          "subject": "Ab Patches — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo operations queue record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-010",
+          "state": "queued",
+          "reference": "GAMBALPLA-0010",
+          "subject": "Ab Patches — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo operations queue record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-011",
+          "state": "queued",
+          "reference": "GAMBALPLA-0011",
+          "subject": "Ab Patches — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo operations queue record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-012",
+          "state": "queued",
+          "reference": "GAMBALPLA-0012",
+          "subject": "Ab Patches — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo operations queue record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-013",
+          "state": "queued",
+          "reference": "GAMBALPLA-0013",
+          "subject": "Ab Patches — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo operations queue record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-014",
+          "state": "queued",
+          "reference": "GAMBALPLA-0014",
+          "subject": "Ab Patches — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo operations queue record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "operations-queue-015",
+          "state": "queued",
+          "reference": "GAMBALPLA-0015",
+          "subject": "Ab Patches — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo operations queue record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "quality-review",
+      "title": "Ab Test Design Quality Review",
+      "description": "Manage quality review for Ab Test Design within Game Balancing Playtesting Agent, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Ab Test Design Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "pending",
+        "reviewing",
+        "changes-required",
+        "verified",
+        "closed"
+      ],
+      "transitions": [
+        {
+          "id": "review",
+          "label": "Begin Review",
+          "from": [
+            "pending"
+          ],
+          "to": "reviewing"
+        },
+        {
+          "id": "request-changes",
+          "label": "Request Changes",
+          "from": [
+            "reviewing"
+          ],
+          "to": "changes-required"
+        },
+        {
+          "id": "verify",
+          "label": "Verify Result",
+          "from": [
+            "reviewing",
+            "changes-required"
+          ],
+          "to": "verified"
+        },
+        {
+          "id": "close",
+          "label": "Close Review",
+          "from": [
+            "verified"
+          ],
+          "to": "closed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "quality-review-001",
+          "state": "pending",
+          "reference": "GAMBALPLA-0001",
+          "subject": "Ab Test Design — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo quality review record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-002",
+          "state": "pending",
+          "reference": "GAMBALPLA-0002",
+          "subject": "Ab Test Design — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo quality review record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-003",
+          "state": "pending",
+          "reference": "GAMBALPLA-0003",
+          "subject": "Ab Test Design — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo quality review record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-004",
+          "state": "pending",
+          "reference": "GAMBALPLA-0004",
+          "subject": "Ab Test Design — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo quality review record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-005",
+          "state": "pending",
+          "reference": "GAMBALPLA-0005",
+          "subject": "Ab Test Design — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo quality review record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-006",
+          "state": "pending",
+          "reference": "GAMBALPLA-0006",
+          "subject": "Ab Test Design — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo quality review record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-007",
+          "state": "pending",
+          "reference": "GAMBALPLA-0007",
+          "subject": "Ab Test Design — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo quality review record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-008",
+          "state": "pending",
+          "reference": "GAMBALPLA-0008",
+          "subject": "Ab Test Design — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo quality review record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-009",
+          "state": "pending",
+          "reference": "GAMBALPLA-0009",
+          "subject": "Ab Test Design — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo quality review record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-010",
+          "state": "pending",
+          "reference": "GAMBALPLA-0010",
+          "subject": "Ab Test Design — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo quality review record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-011",
+          "state": "pending",
+          "reference": "GAMBALPLA-0011",
+          "subject": "Ab Test Design — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo quality review record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-012",
+          "state": "pending",
+          "reference": "GAMBALPLA-0012",
+          "subject": "Ab Test Design — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo quality review record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-013",
+          "state": "pending",
+          "reference": "GAMBALPLA-0013",
+          "subject": "Ab Test Design — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo quality review record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-014",
+          "state": "pending",
+          "reference": "GAMBALPLA-0014",
+          "subject": "Ab Test Design — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo quality review record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "quality-review-015",
+          "state": "pending",
+          "reference": "GAMBALPLA-0015",
+          "subject": "Ab Test Design — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo quality review record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "risk-assessment",
+      "title": "Accent Adapter Risk Assessment",
+      "description": "Manage risk assessment for Accent Adapter within Game Balancing Playtesting Agent, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Accent Adapter Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "identified",
+        "assessing",
+        "mitigating",
+        "accepted",
+        "closed"
+      ],
+      "transitions": [
+        {
+          "id": "assess",
+          "label": "Assess Risk",
+          "from": [
+            "identified"
+          ],
+          "to": "assessing"
+        },
+        {
+          "id": "mitigate",
+          "label": "Plan Mitigation",
+          "from": [
+            "assessing"
+          ],
+          "to": "mitigating"
+        },
+        {
+          "id": "accept",
+          "label": "Accept Risk",
+          "from": [
+            "assessing",
+            "mitigating"
+          ],
+          "to": "accepted"
+        },
+        {
+          "id": "close",
+          "label": "Close Risk",
+          "from": [
+            "accepted"
+          ],
+          "to": "closed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "risk-assessment-001",
+          "state": "identified",
+          "reference": "GAMBALPLA-0001",
+          "subject": "Accent Adapter — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo risk assessment record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-002",
+          "state": "identified",
+          "reference": "GAMBALPLA-0002",
+          "subject": "Accent Adapter — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo risk assessment record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-003",
+          "state": "identified",
+          "reference": "GAMBALPLA-0003",
+          "subject": "Accent Adapter — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo risk assessment record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-004",
+          "state": "identified",
+          "reference": "GAMBALPLA-0004",
+          "subject": "Accent Adapter — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo risk assessment record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-005",
+          "state": "identified",
+          "reference": "GAMBALPLA-0005",
+          "subject": "Accent Adapter — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo risk assessment record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-006",
+          "state": "identified",
+          "reference": "GAMBALPLA-0006",
+          "subject": "Accent Adapter — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo risk assessment record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-007",
+          "state": "identified",
+          "reference": "GAMBALPLA-0007",
+          "subject": "Accent Adapter — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo risk assessment record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-008",
+          "state": "identified",
+          "reference": "GAMBALPLA-0008",
+          "subject": "Accent Adapter — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo risk assessment record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-009",
+          "state": "identified",
+          "reference": "GAMBALPLA-0009",
+          "subject": "Accent Adapter — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo risk assessment record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-010",
+          "state": "identified",
+          "reference": "GAMBALPLA-0010",
+          "subject": "Accent Adapter — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo risk assessment record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-011",
+          "state": "identified",
+          "reference": "GAMBALPLA-0011",
+          "subject": "Accent Adapter — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo risk assessment record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-012",
+          "state": "identified",
+          "reference": "GAMBALPLA-0012",
+          "subject": "Accent Adapter — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo risk assessment record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-013",
+          "state": "identified",
+          "reference": "GAMBALPLA-0013",
+          "subject": "Accent Adapter — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo risk assessment record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-014",
+          "state": "identified",
+          "reference": "GAMBALPLA-0014",
+          "subject": "Accent Adapter — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo risk assessment record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "risk-assessment-015",
+          "state": "identified",
+          "reference": "GAMBALPLA-0015",
+          "subject": "Accent Adapter — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo risk assessment record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "evidence-management",
+      "title": "Admin Portal Evidence Management",
+      "description": "Manage evidence management for Admin Portal within Game Balancing Playtesting Agent, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Admin Portal Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "requested",
+        "collected",
+        "reviewing",
+        "verified",
+        "archived"
+      ],
+      "transitions": [
+        {
+          "id": "collect",
+          "label": "Collect Evidence",
+          "from": [
+            "requested"
+          ],
+          "to": "collected"
+        },
+        {
+          "id": "review",
+          "label": "Review Evidence",
+          "from": [
+            "collected"
+          ],
+          "to": "reviewing"
+        },
+        {
+          "id": "verify",
+          "label": "Verify Evidence",
+          "from": [
+            "reviewing"
+          ],
+          "to": "verified"
+        },
+        {
+          "id": "archive",
+          "label": "Archive Evidence",
+          "from": [
+            "verified"
+          ],
+          "to": "archived"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "evidence-management-001",
+          "state": "requested",
+          "reference": "GAMBALPLA-0001",
+          "subject": "Admin Portal — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo evidence management record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-002",
+          "state": "requested",
+          "reference": "GAMBALPLA-0002",
+          "subject": "Admin Portal — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo evidence management record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-003",
+          "state": "requested",
+          "reference": "GAMBALPLA-0003",
+          "subject": "Admin Portal — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo evidence management record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-004",
+          "state": "requested",
+          "reference": "GAMBALPLA-0004",
+          "subject": "Admin Portal — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo evidence management record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-005",
+          "state": "requested",
+          "reference": "GAMBALPLA-0005",
+          "subject": "Admin Portal — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo evidence management record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-006",
+          "state": "requested",
+          "reference": "GAMBALPLA-0006",
+          "subject": "Admin Portal — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo evidence management record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-007",
+          "state": "requested",
+          "reference": "GAMBALPLA-0007",
+          "subject": "Admin Portal — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo evidence management record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-008",
+          "state": "requested",
+          "reference": "GAMBALPLA-0008",
+          "subject": "Admin Portal — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo evidence management record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-009",
+          "state": "requested",
+          "reference": "GAMBALPLA-0009",
+          "subject": "Admin Portal — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo evidence management record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-010",
+          "state": "requested",
+          "reference": "GAMBALPLA-0010",
+          "subject": "Admin Portal — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo evidence management record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-011",
+          "state": "requested",
+          "reference": "GAMBALPLA-0011",
+          "subject": "Admin Portal — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo evidence management record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-012",
+          "state": "requested",
+          "reference": "GAMBALPLA-0012",
+          "subject": "Admin Portal — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo evidence management record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-013",
+          "state": "requested",
+          "reference": "GAMBALPLA-0013",
+          "subject": "Admin Portal — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo evidence management record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-014",
+          "state": "requested",
+          "reference": "GAMBALPLA-0014",
+          "subject": "Admin Portal — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo evidence management record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "evidence-management-015",
+          "state": "requested",
+          "reference": "GAMBALPLA-0015",
+          "subject": "Admin Portal — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo evidence management record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "exception-resolution",
+      "title": "Advice Exception Resolution",
+      "description": "Manage exception resolution for Advice within Game Balancing Playtesting Agent, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Advice Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "open",
+        "investigating",
+        "remediating",
+        "resolved",
+        "waived"
+      ],
+      "transitions": [
+        {
+          "id": "investigate",
+          "label": "Investigate Exception",
+          "from": [
+            "open"
+          ],
+          "to": "investigating"
+        },
+        {
+          "id": "remediate",
+          "label": "Start Remediation",
+          "from": [
+            "investigating"
+          ],
+          "to": "remediating"
+        },
+        {
+          "id": "resolve",
+          "label": "Resolve Exception",
+          "from": [
+            "investigating",
+            "remediating"
+          ],
+          "to": "resolved"
+        },
+        {
+          "id": "waive",
+          "label": "Approve Waiver",
+          "from": [
+            "investigating"
+          ],
+          "to": "waived"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "exception-resolution-001",
+          "state": "open",
+          "reference": "GAMBALPLA-0001",
+          "subject": "Advice — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo exception resolution record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-002",
+          "state": "open",
+          "reference": "GAMBALPLA-0002",
+          "subject": "Advice — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo exception resolution record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-003",
+          "state": "open",
+          "reference": "GAMBALPLA-0003",
+          "subject": "Advice — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo exception resolution record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-004",
+          "state": "open",
+          "reference": "GAMBALPLA-0004",
+          "subject": "Advice — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo exception resolution record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-005",
+          "state": "open",
+          "reference": "GAMBALPLA-0005",
+          "subject": "Advice — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo exception resolution record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-006",
+          "state": "open",
+          "reference": "GAMBALPLA-0006",
+          "subject": "Advice — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo exception resolution record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-007",
+          "state": "open",
+          "reference": "GAMBALPLA-0007",
+          "subject": "Advice — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo exception resolution record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-008",
+          "state": "open",
+          "reference": "GAMBALPLA-0008",
+          "subject": "Advice — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo exception resolution record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-009",
+          "state": "open",
+          "reference": "GAMBALPLA-0009",
+          "subject": "Advice — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo exception resolution record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-010",
+          "state": "open",
+          "reference": "GAMBALPLA-0010",
+          "subject": "Advice — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo exception resolution record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-011",
+          "state": "open",
+          "reference": "GAMBALPLA-0011",
+          "subject": "Advice — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo exception resolution record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-012",
+          "state": "open",
+          "reference": "GAMBALPLA-0012",
+          "subject": "Advice — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo exception resolution record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-013",
+          "state": "open",
+          "reference": "GAMBALPLA-0013",
+          "subject": "Advice — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo exception resolution record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-014",
+          "state": "open",
+          "reference": "GAMBALPLA-0014",
+          "subject": "Advice — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo exception resolution record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "exception-resolution-015",
+          "state": "open",
+          "reference": "GAMBALPLA-0015",
+          "subject": "Advice — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo exception resolution record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "approval-control",
+      "title": "Advise Approval Control",
+      "description": "Manage approval control for Advise within Game Balancing Playtesting Agent, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Advise Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "prepared",
+        "submitted",
+        "reviewing",
+        "approved",
+        "declined"
+      ],
+      "transitions": [
+        {
+          "id": "submit",
+          "label": "Submit for Approval",
+          "from": [
+            "prepared"
+          ],
+          "to": "submitted"
+        },
+        {
+          "id": "review",
+          "label": "Begin Approval Review",
+          "from": [
+            "submitted"
+          ],
+          "to": "reviewing"
+        },
+        {
+          "id": "approve",
+          "label": "Approve",
+          "from": [
+            "reviewing"
+          ],
+          "to": "approved"
+        },
+        {
+          "id": "decline",
+          "label": "Decline",
+          "from": [
+            "submitted",
+            "reviewing"
+          ],
+          "to": "declined"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "approval-control-001",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0001",
+          "subject": "Advise — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo approval control record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-002",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0002",
+          "subject": "Advise — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo approval control record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-003",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0003",
+          "subject": "Advise — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo approval control record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-004",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0004",
+          "subject": "Advise — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo approval control record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-005",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0005",
+          "subject": "Advise — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo approval control record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-006",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0006",
+          "subject": "Advise — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo approval control record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-007",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0007",
+          "subject": "Advise — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo approval control record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-008",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0008",
+          "subject": "Advise — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo approval control record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-009",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0009",
+          "subject": "Advise — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo approval control record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-010",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0010",
+          "subject": "Advise — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo approval control record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-011",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0011",
+          "subject": "Advise — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo approval control record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-012",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0012",
+          "subject": "Advise — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo approval control record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-013",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0013",
+          "subject": "Advise — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo approval control record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-014",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0014",
+          "subject": "Advise — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo approval control record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "approval-control-015",
+          "state": "prepared",
+          "reference": "GAMBALPLA-0015",
+          "subject": "Advise — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo approval control record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    },
+    {
+      "id": "performance-reporting",
+      "title": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page Performance Reporting",
+      "description": "Manage performance reporting for Agentic Gm Co Pilot That Runs Encounters Tracks To Page within Game Balancing Playtesting Agent, with explicit ownership, due dates, state transitions, and audit history.",
+      "fields": [
+        {
+          "key": "reference",
+          "label": "Reference",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "subject",
+          "label": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page Subject",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "owner",
+          "label": "Owner",
+          "type": "text",
+          "required": true
+        },
+        {
+          "key": "priority",
+          "label": "Priority",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        {
+          "key": "dueDate",
+          "label": "Due Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "notes",
+          "label": "Operational Notes",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "states": [
+        "requested",
+        "preparing",
+        "ready",
+        "delivered",
+        "failed"
+      ],
+      "transitions": [
+        {
+          "id": "prepare",
+          "label": "Prepare Report",
+          "from": [
+            "requested",
+            "failed"
+          ],
+          "to": "preparing"
+        },
+        {
+          "id": "ready",
+          "label": "Mark Ready",
+          "from": [
+            "preparing"
+          ],
+          "to": "ready"
+        },
+        {
+          "id": "deliver",
+          "label": "Record Delivery",
+          "from": [
+            "ready"
+          ],
+          "to": "delivered"
+        },
+        {
+          "id": "fail",
+          "label": "Record Failure",
+          "from": [
+            "preparing"
+          ],
+          "to": "failed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "performance-reporting-001",
+          "state": "requested",
+          "reference": "GAMBALPLA-0001",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — North Region",
+          "owner": "Avery Morgan",
+          "priority": "Low",
+          "dueDate": "2026-08-01",
+          "notes": "Demo performance reporting record for north region; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-002",
+          "state": "requested",
+          "reference": "GAMBALPLA-0002",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Enterprise Account",
+          "owner": "Jordan Lee",
+          "priority": "Medium",
+          "dueDate": "2026-08-03",
+          "notes": "Demo performance reporting record for enterprise account; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-003",
+          "state": "requested",
+          "reference": "GAMBALPLA-0003",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Quarterly Cycle",
+          "owner": "Taylor Brooks",
+          "priority": "High",
+          "dueDate": "2026-08-05",
+          "notes": "Demo performance reporting record for quarterly cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-004",
+          "state": "requested",
+          "reference": "GAMBALPLA-0004",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Priority Queue",
+          "owner": "Morgan Chen",
+          "priority": "Critical",
+          "dueDate": "2026-08-07",
+          "notes": "Demo performance reporting record for priority queue; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-005",
+          "state": "requested",
+          "reference": "GAMBALPLA-0005",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Operations Review",
+          "owner": "Riley Patel",
+          "priority": "Low",
+          "dueDate": "2026-08-09",
+          "notes": "Demo performance reporting record for operations review; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-006",
+          "state": "requested",
+          "reference": "GAMBALPLA-0006",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Customer Request",
+          "owner": "Casey Nguyen",
+          "priority": "Medium",
+          "dueDate": "2026-08-11",
+          "notes": "Demo performance reporting record for customer request; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-007",
+          "state": "requested",
+          "reference": "GAMBALPLA-0007",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Compliance Check",
+          "owner": "Cameron Diaz",
+          "priority": "High",
+          "dueDate": "2026-08-13",
+          "notes": "Demo performance reporting record for compliance check; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-008",
+          "state": "requested",
+          "reference": "GAMBALPLA-0008",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Service Window",
+          "owner": "Drew Wilson",
+          "priority": "Critical",
+          "dueDate": "2026-08-15",
+          "notes": "Demo performance reporting record for service window; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-009",
+          "state": "requested",
+          "reference": "GAMBALPLA-0009",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Quality Sample",
+          "owner": "Emerson Clark",
+          "priority": "Low",
+          "dueDate": "2026-08-17",
+          "notes": "Demo performance reporting record for quality sample; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-010",
+          "state": "requested",
+          "reference": "GAMBALPLA-0010",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Management Review",
+          "owner": "Hayden Kim",
+          "priority": "Medium",
+          "dueDate": "2026-08-19",
+          "notes": "Demo performance reporting record for management review; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-011",
+          "state": "requested",
+          "reference": "GAMBALPLA-0011",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Exception Follow-up",
+          "owner": "Jamie Rivera",
+          "priority": "High",
+          "dueDate": "2026-08-21",
+          "notes": "Demo performance reporting record for exception follow-up; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-012",
+          "state": "requested",
+          "reference": "GAMBALPLA-0012",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Evidence Package",
+          "owner": "Kai Thompson",
+          "priority": "Critical",
+          "dueDate": "2026-08-23",
+          "notes": "Demo performance reporting record for evidence package; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-013",
+          "state": "requested",
+          "reference": "GAMBALPLA-0013",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Planning Cycle",
+          "owner": "Logan Shah",
+          "priority": "Low",
+          "dueDate": "2026-08-25",
+          "notes": "Demo performance reporting record for planning cycle; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-014",
+          "state": "requested",
+          "reference": "GAMBALPLA-0014",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Performance Review",
+          "owner": "Parker Evans",
+          "priority": "Medium",
+          "dueDate": "2026-08-27",
+          "notes": "Demo performance reporting record for performance review; verify evidence and next action before completion."
+        },
+        {
+          "id": "performance-reporting-015",
+          "state": "requested",
+          "reference": "GAMBALPLA-0015",
+          "subject": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page — Final Verification",
+          "owner": "Quinn Murphy",
+          "priority": "High",
+          "dueDate": "2026-08-29",
+          "notes": "Demo performance reporting record for final verification; verify evidence and next action before completion."
+        }
+      ]
+    }
+  ],
+  "resources": []
+}

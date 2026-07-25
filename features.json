@@ -1,87 +1,5 @@
 [
   {
-    "name": "A B Testing Of Script Variants With Statistical Si",
-    "canonicalKey": "a b of script si statistical testing variants with",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:53",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
-    "name": "AI Coverage Is Comprehensive 63 Endpoints Across",
-    "canonicalKey": "63 across ai comprehensive coverage endpoints is",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:54",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
-    "name": "AI Predictions",
-    "canonicalKey": "ai prediction",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AIPredictions",
-      "/ai-predictions"
-    ],
-    "sourceProjects": [
-      "AIGameBalancingPlaytestingAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIGameBalancingPlaytestingAgent",
-        "path": "client/src/App.jsx:298",
-        "route": "/ai-predictions",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIGameBalancingPlaytestingAgent",
-        "path": "client/src/pages/AIPredictions.jsx",
-        "route": "/AIPredictions",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
     "name": "Ab And Patches",
     "canonicalKey": "ab and patche",
     "aliases": [],
@@ -173,7 +91,6 @@
     "canonicalKey": "accent adapter",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -186,13 +103,6 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:65",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -220,7 +130,7 @@
       {
         "kind": "navigation",
         "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:84",
+        "path": "src/components/layout/sidebar.tsx:42",
         "route": "",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       }
@@ -279,32 +189,8 @@
     ]
   },
   {
-    "name": "Agent Performance Scoring Grading On Tone Accurac",
-    "canonicalKey": "accurac agent grading on performance scoring tone",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:49",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
     "name": "Agentic Gm Co Pilot That Runs Encounters Tracks To Page",
-    "canonicalKey": "agentic co encounters gm pilot runs that to tracks",
+    "canonicalKey": "agentic co encounter gm pilot runs that to track",
     "aliases": [],
     "kinds": [
       "page"
@@ -349,7 +235,7 @@
       {
         "kind": "navigation",
         "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:40",
+        "path": "src/components/layout/sidebar.tsx:29",
         "route": "",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       },
@@ -358,6 +244,40 @@
         "sourceProject": "aIVoiceAgent",
         "path": "src/app/(dashboard)/agents/page.tsx",
         "route": "/agents",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "AI Predictions",
+    "canonicalKey": "ai prediction",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AIPredictions",
+      "/ai-predictions"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/App.jsx:298",
+        "route": "/ai-predictions",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "client/src/pages/AIPredictions.jsx",
+        "route": "/AIPredictions",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       }
     ]
@@ -544,37 +464,10 @@
     ]
   },
   {
-    "name": "Assets",
-    "canonicalKey": "asset",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/assets"
-    ],
-    "sourceProjects": [
-      "AIGameAssetGenerator"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIGameAssetGenerator",
-        "path": "backend/routes/collections.js:106",
-        "route": "/:id/assets",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
     "name": "Avatar Render",
     "canonicalKey": "avatar render",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -587,13 +480,6 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:77",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -734,10 +620,10 @@
     ]
   },
   {
-    "name": "Balance Recommendations",
+    "name": "Balance Recommendations View",
     "canonicalKey": "balance recommendation",
     "aliases": [
-      "Balance Recommendations View"
+      "Balance Recommendations"
     ],
     "kinds": [
       "page"
@@ -858,12 +744,33 @@
   },
   {
     "name": "Call History",
-    "canonicalKey": "call",
-    "aliases": [
-      "Calls"
-    ],
+    "canonicalKey": "call history",
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:31",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Calls",
+    "canonicalKey": "call",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -877,13 +784,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:42",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
-      {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
         "path": "src/app/(dashboard)/calls/page.tsx",
@@ -894,7 +794,7 @@
   },
   {
     "name": "Cf A B Testing Of Script Variants With Statistical",
-    "canonicalKey": "a b cf of script statistical testing variants with",
+    "canonicalKey": "a b cf of script statistical testing variant with",
     "aliases": [],
     "kinds": [
       "page"
@@ -1048,7 +948,7 @@
   },
   {
     "name": "Cf Cohort Aware Balance Changes Targeting H",
-    "canonicalKey": "aware balance cf changes cohort h targeting",
+    "canonicalKey": "aware balance cf change cohort h targeting",
     "aliases": [],
     "kinds": [
       "page"
@@ -1142,7 +1042,7 @@
   },
   {
     "name": "Cf Esports Meta Predictor Recommending Pree",
-    "canonicalKey": "cf esports meta predictor pree recommending",
+    "canonicalKey": "cf esport meta predictor pree recommending",
     "aliases": [],
     "kinds": [
       "page"
@@ -1296,7 +1196,7 @@
   },
   {
     "name": "Cf Real Time Sentiment Intervention Coaching Agents Mid Call",
-    "canonicalKey": "agents call cf coaching intervention mid real sentiment time",
+    "canonicalKey": "agent call cf coaching intervention mid real sentiment time",
     "aliases": [],
     "kinds": [
       "page"
@@ -1609,7 +1509,6 @@
     "canonicalKey": "consent ledger",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -1623,41 +1522,10 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:75",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
-      {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
         "path": "src/app/(dashboard)/voicestudio/consentLedger/page.tsx",
         "route": "/voicestudio/consentLedger",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
-    "name": "Custom Voice Cloning For Branded Voice Characteris",
-    "canonicalKey": "branded characteris cloning custom for voice",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:52",
-        "route": "",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       }
     ]
@@ -1823,7 +1691,6 @@
     "canonicalKey": "detector emotion",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -1836,13 +1703,6 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:67",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -1944,6 +1804,144 @@
         "path": "backend/src/routes/sessions.js:131",
         "route": "/:id/end",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Erasure Complete",
+    "canonicalKey": "complete erasure",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/erasure-complete"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator",
+      "AIGameBalancingPlaytestingAgent",
+      "AIRecommendationsforbroadcasters",
+      "AISportsAnalytics",
+      "AiSplitVideos",
+      "AiVideoScriptContent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/event-planner",
+      "media-content-creative/game-balancing-playtesting-agent",
+      "media-content-creative/video-generation",
+      "media-content-creative/voice-forge"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/governance/router.js:176",
+        "route": "/:id/erasure-complete",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/governance/router.js:176",
+        "route": "/:id/erasure-complete",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiVideoScriptContent",
+        "path": "backend/governance/router.js:238",
+        "route": "/:id/erasure-complete",
+        "originApp": "media-content-creative/video-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiSplitVideos",
+        "path": "backend/governance/router.js:238",
+        "route": "/:id/erasure-complete",
+        "originApp": "media-content-creative/voice-forge"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRecommendationsforbroadcasters",
+        "path": "backend/governance/router.js:237",
+        "route": "/:id/erasure-complete",
+        "originApp": "media-content-creative/event-planner"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISportsAnalytics",
+        "path": "server/governance/router.js:238",
+        "route": "/:id/erasure-complete",
+        "originApp": "media-content-creative/event-planner"
+      }
+    ]
+  },
+  {
+    "name": "Erasure Request",
+    "canonicalKey": "erasure request",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/erasure-request"
+    ],
+    "sourceProjects": [
+      "AIGameAssetGenerator",
+      "AIGameBalancingPlaytestingAgent",
+      "AIRecommendationsforbroadcasters",
+      "AISportsAnalytics",
+      "AiSplitVideos",
+      "AiVideoScriptContent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/event-planner",
+      "media-content-creative/game-balancing-playtesting-agent",
+      "media-content-creative/video-generation",
+      "media-content-creative/voice-forge"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/governance/router.js:159",
+        "route": "/:id/erasure-request",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/governance/router.js:159",
+        "route": "/:id/erasure-request",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiVideoScriptContent",
+        "path": "backend/governance/router.js:208",
+        "route": "/:id/erasure-request",
+        "originApp": "media-content-creative/video-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiSplitVideos",
+        "path": "backend/governance/router.js:208",
+        "route": "/:id/erasure-request",
+        "originApp": "media-content-creative/voice-forge"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRecommendationsforbroadcasters",
+        "path": "backend/governance/router.js:207",
+        "route": "/:id/erasure-request",
+        "originApp": "media-content-creative/event-planner"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISportsAnalytics",
+        "path": "server/governance/router.js:208",
+        "route": "/:id/erasure-request",
+        "originApp": "media-content-creative/event-planner"
       }
     ]
   },
@@ -2102,7 +2100,7 @@
   },
   {
     "name": "Frontend Pages Folder Is Empty No Spa Ui Shipped Page",
-    "canonicalKey": "empty folder frontend is no pages shipped spa ui",
+    "canonicalKey": "empty folder frontend is no page shipped spa ui",
     "aliases": [],
     "kinds": [
       "page"
@@ -2180,7 +2178,7 @@
   },
   {
     "name": "Gap AI Coverage Is Comprehensive 63 Endpoints Across Multi Language",
-    "canonicalKey": "63 across ai comprehensive coverage endpoints gap is language multi",
+    "canonicalKey": "63 across ai comprehensive coverage endpoint gap is language multi",
     "aliases": [],
     "kinds": [
       "page"
@@ -2232,7 +2230,7 @@
   },
   {
     "name": "Gap Limited CRM Integration Depth Integrations Layer Exists But",
-    "canonicalKey": "but crm depth exists gap integration integrations layer limited",
+    "canonicalKey": "but crm depth exist gap integration layer limited",
     "aliases": [],
     "kinds": [
       "page"
@@ -2650,7 +2648,7 @@
   },
   {
     "name": "Gap No Public Patch Notes Site",
-    "canonicalKey": "gap no notes patch public site",
+    "canonicalKey": "gap no note patch public site",
     "aliases": [],
     "kinds": [
       "page"
@@ -2752,7 +2750,7 @@
   },
   {
     "name": "Gap No Real Time Voice Biometrics For Caller Verification",
-    "canonicalKey": "biometrics caller for gap no real time verification voice",
+    "canonicalKey": "biometric caller for gap no real time verification voice",
     "aliases": [],
     "kinds": [
       "page"
@@ -2974,7 +2972,7 @@
   },
   {
     "name": "Gap No Webhook Dispatchers For Live Patch",
-    "canonicalKey": "dispatchers for gap live no patch webhook",
+    "canonicalKey": "dispatcher for gap live no patch webhook",
     "aliases": [],
     "kinds": [
       "page"
@@ -3138,7 +3136,6 @@
     "canonicalKey": "hearing test",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -3152,13 +3149,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:70",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
-      {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
         "path": "src/app/(dashboard)/ai/hearing-test/page.tsx",
@@ -3171,57 +3161,42 @@
     "name": "Integrations",
     "canonicalKey": "integration",
     "aliases": [
+      "Integrations Page",
       "Platform Integration"
     ],
     "kinds": [
+      "api",
       "model",
       "navigation",
       "page"
     ],
     "routes": [
+      "/:id/integrations",
+      "/IntegrationsPage",
       "/integrations"
     ],
     "sourceProjects": [
       "AIAdCopyCreativeGenerator",
+      "AIGameAssetGenerator",
+      "AIGameBalancingPlaytestingAgent",
       "AIMusicRightsRoyaltyTracker",
       "AIPharmaTrialDesigner",
+      "AIRecommendationsforbroadcasters",
+      "AISportsAnalytics",
+      "AiSplitVideos",
+      "AiVideoScriptContent",
       "aIVoiceAgent"
     ],
     "consolidatedFromApps": [
       "media-content-creative/esports-performance-analyzer",
+      "media-content-creative/event-planner",
       "media-content-creative/game-balancing-playtesting-agent",
       "media-content-creative/marketing-copy-generator",
-      "media-content-creative/music-generation"
+      "media-content-creative/music-generation",
+      "media-content-creative/video-generation",
+      "media-content-creative/voice-forge"
     ],
     "evidence": [
-      {
-        "kind": "model",
-        "sourceProject": "AIMusicRightsRoyaltyTracker",
-        "path": "server/models/PlatformIntegration.js",
-        "route": "",
-        "originApp": "media-content-creative/music-generation"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAdCopyCreativeGenerator",
-        "path": "frontend/src/App.jsx:61",
-        "route": "/integrations",
-        "originApp": "media-content-creative/marketing-copy-generator"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:43",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/app/(dashboard)/integrations/page.tsx",
-        "route": "/integrations",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
       {
         "kind": "page",
         "sourceProject": "AIPharmaTrialDesigner",
@@ -3235,6 +3210,83 @@
         "path": "frontend/src/components/Sidebar.js:66",
         "route": "/integrations",
         "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameAssetGenerator",
+        "path": "backend/governance/router.js:126",
+        "route": "/:id/integrations",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/governance/router.js:126",
+        "route": "/:id/integrations",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:32",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/integrations/page.tsx",
+        "route": "/integrations",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAdCopyCreativeGenerator",
+        "path": "frontend/src/App.jsx:61",
+        "route": "/integrations",
+        "originApp": "media-content-creative/marketing-copy-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAdCopyCreativeGenerator",
+        "path": "frontend/src/pages/IntegrationsPage.jsx",
+        "route": "/IntegrationsPage",
+        "originApp": "media-content-creative/marketing-copy-generator"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "AIMusicRightsRoyaltyTracker",
+        "path": "server/models/PlatformIntegration.js",
+        "route": "",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiVideoScriptContent",
+        "path": "backend/governance/router.js:175",
+        "route": "/:id/integrations",
+        "originApp": "media-content-creative/video-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiSplitVideos",
+        "path": "backend/governance/router.js:175",
+        "route": "/:id/integrations",
+        "originApp": "media-content-creative/voice-forge"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIRecommendationsforbroadcasters",
+        "path": "backend/governance/router.js:174",
+        "route": "/:id/integrations",
+        "originApp": "media-content-creative/event-planner"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISportsAnalytics",
+        "path": "server/governance/router.js:175",
+        "route": "/:id/integrations",
+        "originApp": "media-content-creative/event-planner"
       }
     ]
   },
@@ -3243,7 +3295,6 @@
     "canonicalKey": "classifier intent",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -3256,13 +3307,6 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:66",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -3296,20 +3340,6 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "AISlideDeckGenerator",
-        "path": "frontend/src/App.js:89",
-        "route": "/layouts",
-        "originApp": "media-content-creative/marketing-copy-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISlideDeckGenerator",
-        "path": "frontend/src/pages/Dashboard.js:11",
-        "route": "/layouts",
-        "originApp": "media-content-creative/marketing-copy-generator"
-      },
-      {
-        "kind": "page",
         "sourceProject": "aIVoiceAgent",
         "path": "src/app/(auth)/layout.tsx",
         "route": "/",
@@ -3328,54 +3358,20 @@
         "path": "src/app/layout.tsx",
         "route": "/",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
-    "name": "Limited Billing Metering Granularity For AI Usage",
-    "canonicalKey": "ai billing for granularity limited metering usage",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
+      },
       {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:60",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
-    "name": "Limited CRM Integration Depth Integrations Layer",
-    "canonicalKey": "crm depth integration integrations layer limited",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
+        "kind": "page",
+        "sourceProject": "AISlideDeckGenerator",
+        "path": "frontend/src/App.js:89",
+        "route": "/layouts",
+        "originApp": "media-content-creative/marketing-copy-generator"
+      },
       {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:58",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+        "kind": "page",
+        "sourceProject": "AISlideDeckGenerator",
+        "path": "frontend/src/pages/Dashboard.js:11",
+        "route": "/layouts",
+        "originApp": "media-content-creative/marketing-copy-generator"
       }
     ]
   },
@@ -3384,7 +3380,6 @@
     "canonicalKey": "engine lipsync",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -3397,13 +3392,6 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:78",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -3529,30 +3517,6 @@
     ]
   },
   {
-    "name": "Long Term Contextual Conversation Memory Across Se",
-    "canonicalKey": "across contextual conversation long memory se term",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:48",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
     "name": "Loot Hoard",
     "canonicalKey": "hoard loot",
     "aliases": [],
@@ -3574,6 +3538,40 @@
         "sourceProject": "AIBoardGameTTRPGGameMaster",
         "path": "backend/src/routes/ai.js:64",
         "route": "/loot-hoard",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Media Production",
+    "canonicalKey": "media production",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/media-production"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/components/layout/sidebar.tsx:38",
+        "route": "",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "src/app/(dashboard)/media-production/page.tsx",
+        "route": "/media-production",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       }
     ]
@@ -3687,7 +3685,6 @@
     "canonicalKey": "language multi",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -3701,13 +3698,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:68",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
-      {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
         "path": "src/app/(dashboard)/ai/multi-language/page.tsx",
@@ -3717,35 +3707,10 @@
     ]
   },
   {
-    "name": "Multi Language Code Switching For Mixed Conversati",
-    "canonicalKey": "code conversati for language mixed multi switching",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:50",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
     "name": "Multilingual Dubbing",
     "canonicalKey": "dubbing multilingual",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -3758,13 +3723,6 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:79",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -3804,34 +3762,6 @@
       "media-content-creative/logo-brand-kit-generator"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AiInteriorDesign",
-        "path": "frontend/src/App.jsx:4071",
-        "route": "/designs/new",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiInteriorDesign",
-        "path": "frontend/src/App.jsx:4076",
-        "route": "/furniture/new",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiInteriorDesign",
-        "path": "frontend/src/App.jsx:4079",
-        "route": "/palettes/new",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AiInteriorDesign",
-        "path": "frontend/src/App.jsx:4087",
-        "route": "/shopping/new",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -3887,6 +3817,34 @@
         "path": "src/app/(dashboard)/voicestudio/watermarkProvenance/new/page.tsx",
         "route": "/voicestudio/watermarkProvenance/new",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiInteriorDesign",
+        "path": "frontend/src/App.jsx:4071",
+        "route": "/designs/new",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiInteriorDesign",
+        "path": "frontend/src/App.jsx:4076",
+        "route": "/furniture/new",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiInteriorDesign",
+        "path": "frontend/src/App.jsx:4079",
+        "route": "/palettes/new",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiInteriorDesign",
+        "path": "frontend/src/App.jsx:4087",
+        "route": "/shopping/new",
+        "originApp": "media-content-creative/logo-brand-kit-generator"
       }
     ]
   },
@@ -3970,7 +3928,7 @@
   },
   {
     "name": "No AI Rules Arbitration Co Pilot During Play Page",
-    "canonicalKey": "ai arbitration co during no pilot play rules",
+    "canonicalKey": "ai arbitration co during no pilot play rule",
     "aliases": [],
     "kinds": [
       "page"
@@ -4021,30 +3979,6 @@
     ]
   },
   {
-    "name": "No Conversation Transcript Full Text Search",
-    "canonicalKey": "conversation full no search text transcript",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:59",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
     "name": "No Discord Voice Chat Integration Page",
     "canonicalKey": "chat discord integration no voice",
     "aliases": [],
@@ -4072,7 +4006,7 @@
   },
   {
     "name": "No Export Of Campaign Archives Pdf Json Page",
-    "canonicalKey": "archives campaign export json no of pdf",
+    "canonicalKey": "archive campaign export json no of pdf",
     "aliases": [],
     "kinds": [
       "page"
@@ -4098,7 +4032,7 @@
   },
   {
     "name": "No Notification System For Session Reminders Page",
-    "canonicalKey": "for no notification reminders session",
+    "canonicalKey": "for no notification reminder session",
     "aliases": [],
     "kinds": [
       "page"
@@ -4144,78 +4078,6 @@
         "sourceProject": "AIBoardGameTTRPGGameMaster",
         "path": "frontend/src/pages/NoPlayerMarketplaceForHomebrewContentPage.jsx",
         "route": "/NoPlayerMarketplaceForHomebrewContentPage",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
-    "name": "No Predictive Call Outcome Scoring Before Transfer",
-    "canonicalKey": "before call no outcome predictive scoring transfer",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:56",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
-    "name": "No Real Time Voice Biometrics For Caller Verificat",
-    "canonicalKey": "biometrics caller for no real time verificat voice",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:55",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
-    "name": "No Sip Non Twilio Telephony Backend Currently Sin",
-    "canonicalKey": "backend currently no non sin sip telephony twilio",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:57",
-        "route": "",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       }
     ]
@@ -4274,7 +4136,7 @@
   },
   {
     "name": "Patch Notes Generate",
-    "canonicalKey": "generate notes patch",
+    "canonicalKey": "generate note patch",
     "aliases": [],
     "kinds": [
       "api",
@@ -4351,7 +4213,7 @@
       {
         "kind": "navigation",
         "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:41",
+        "path": "src/components/layout/sidebar.tsx:30",
         "route": "",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       }
@@ -4464,143 +4326,73 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AiImageGeneration",
-        "path": "backend/routes/gap-no-active-prompt-improvement-ai-only.js:25",
+        "sourceProject": "AIEsportsPerformanceAnalyzer",
+        "path": "backend/routes/batch03Gaps.js:53",
         "route": "pool",
-        "originApp": "media-content-creative/music-generation"
+        "originApp": "media-content-creative/esports-performance-analyzer"
       },
       {
         "kind": "api",
-        "sourceProject": "AiImageGeneration",
-        "path": "backend/routes/gap-no-collaboration-shared-workspaces.js:25",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-live-social-media-api-integrations-are.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/music-generation"
+        "originApp": "media-content-creative/esports-performance-analyzer"
       },
       {
         "kind": "api",
-        "sourceProject": "AiImageGeneration",
-        "path": "backend/routes/gap-no-image-marketplace-royalty-tracking.js:25",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-audience-segmentation-ai-audiencejs-i.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/music-generation"
+        "originApp": "media-content-creative/esports-performance-analyzer"
       },
       {
         "kind": "api",
-        "sourceProject": "AiImageGeneration",
-        "path": "backend/routes/gap-no-live-generate-image-endpoint-only.js:25",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-content-calendar-trend-ai.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/music-generation"
+        "originApp": "media-content-creative/esports-performance-analyzer"
       },
       {
         "kind": "api",
-        "sourceProject": "AiImageGeneration",
-        "path": "backend/routes/gap-no-payment-processing-surface-beyond-str.js:25",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-e-signature-for-contracts.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/music-generation"
+        "originApp": "media-content-creative/esports-performance-analyzer"
       },
       {
         "kind": "api",
-        "sourceProject": "AiImageGeneration",
-        "path": "backend/routes/gap-no-public-profileportfolio-pages.js:25",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-fake-follower-fraud-detector.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/music-generation"
+        "originApp": "media-content-creative/esports-performance-analyzer"
       },
       {
         "kind": "api",
-        "sourceProject": "AiImageGeneration",
-        "path": "backend/routes/gap-no-real-style-transfer-execution.js:25",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-file-upload-for-content-briefs.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/music-generation"
+        "originApp": "media-content-creative/esports-performance-analyzer"
       },
       {
         "kind": "api",
-        "sourceProject": "AiImageGeneration",
-        "path": "backend/routes/gap-no-upscaling-execution.js:25",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-notification-engine-0-references.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/music-generation"
+        "originApp": "media-content-creative/esports-performance-analyzer"
       },
       {
         "kind": "api",
-        "sourceProject": "AiImageGeneration",
-        "path": "backend/routes/gap-no-variation-execution.js:25",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-performance-prediction-model.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/music-generation"
+        "originApp": "media-content-creative/esports-performance-analyzer"
       },
       {
         "kind": "api",
-        "sourceProject": "AiImageGeneration",
-        "path": "backend/routes/gap-no-webhook-surface.js:25",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/gap-no-webhook-receivers-for-engagement-even.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/music-generation"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiInteriorDesign",
-        "path": "backend/routes/gap-live-vendorcontractor-integrations-still.js:25",
-        "route": "pool",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiInteriorDesign",
-        "path": "backend/routes/gap-no-3d-model-library-expansion-beyond.js:25",
-        "route": "pool",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiInteriorDesign",
-        "path": "backend/routes/gap-no-accessibility-recommender.js:25",
-        "route": "pool",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiInteriorDesign",
-        "path": "backend/routes/gap-no-file-upload-pipeline-for-floor.js:25",
-        "route": "pool",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiInteriorDesign",
-        "path": "backend/routes/gap-no-native-ar-mobile-app-only.js:25",
-        "route": "pool",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiInteriorDesign",
-        "path": "backend/routes/gap-no-notifications-module-0-references.js:25",
-        "route": "pool",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiInteriorDesign",
-        "path": "backend/routes/gap-no-room-layout-optimizer.js:25",
-        "route": "pool",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiInteriorDesign",
-        "path": "backend/routes/gap-no-sustainability-scoring-ai.js:25",
-        "route": "pool",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiInteriorDesign",
-        "path": "backend/routes/gap-no-trend-forecaster-endpoint.js:25",
-        "route": "pool",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiInteriorDesign",
-        "path": "backend/routes/gap-no-webhook-surface.js:25",
-        "route": "pool",
-        "originApp": "media-content-creative/logo-brand-kit-generator"
+        "originApp": "media-content-creative/esports-performance-analyzer"
       },
       {
         "kind": "api",
@@ -4751,73 +4543,143 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIEsportsPerformanceAnalyzer",
-        "path": "backend/routes/batch03Gaps.js:53",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-live-vendorcontractor-integrations-still.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/esports-performance-analyzer"
+        "originApp": "media-content-creative/logo-brand-kit-generator"
       },
       {
         "kind": "api",
-        "sourceProject": "AIInfluencerManagementPlatform",
-        "path": "backend/routes/gap-live-social-media-api-integrations-are.js:25",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-3d-model-library-expansion-beyond.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/esports-performance-analyzer"
+        "originApp": "media-content-creative/logo-brand-kit-generator"
       },
       {
         "kind": "api",
-        "sourceProject": "AIInfluencerManagementPlatform",
-        "path": "backend/routes/gap-no-audience-segmentation-ai-audiencejs-i.js:25",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-accessibility-recommender.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/esports-performance-analyzer"
+        "originApp": "media-content-creative/logo-brand-kit-generator"
       },
       {
         "kind": "api",
-        "sourceProject": "AIInfluencerManagementPlatform",
-        "path": "backend/routes/gap-no-content-calendar-trend-ai.js:25",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-file-upload-pipeline-for-floor.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/esports-performance-analyzer"
+        "originApp": "media-content-creative/logo-brand-kit-generator"
       },
       {
         "kind": "api",
-        "sourceProject": "AIInfluencerManagementPlatform",
-        "path": "backend/routes/gap-no-e-signature-for-contracts.js:25",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-native-ar-mobile-app-only.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/esports-performance-analyzer"
+        "originApp": "media-content-creative/logo-brand-kit-generator"
       },
       {
         "kind": "api",
-        "sourceProject": "AIInfluencerManagementPlatform",
-        "path": "backend/routes/gap-no-fake-follower-fraud-detector.js:25",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-notifications-module-0-references.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/esports-performance-analyzer"
+        "originApp": "media-content-creative/logo-brand-kit-generator"
       },
       {
         "kind": "api",
-        "sourceProject": "AIInfluencerManagementPlatform",
-        "path": "backend/routes/gap-no-file-upload-for-content-briefs.js:25",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-room-layout-optimizer.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/esports-performance-analyzer"
+        "originApp": "media-content-creative/logo-brand-kit-generator"
       },
       {
         "kind": "api",
-        "sourceProject": "AIInfluencerManagementPlatform",
-        "path": "backend/routes/gap-no-notification-engine-0-references.js:25",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-sustainability-scoring-ai.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/esports-performance-analyzer"
+        "originApp": "media-content-creative/logo-brand-kit-generator"
       },
       {
         "kind": "api",
-        "sourceProject": "AIInfluencerManagementPlatform",
-        "path": "backend/routes/gap-no-performance-prediction-model.js:25",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-trend-forecaster-endpoint.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/esports-performance-analyzer"
+        "originApp": "media-content-creative/logo-brand-kit-generator"
       },
       {
         "kind": "api",
-        "sourceProject": "AIInfluencerManagementPlatform",
-        "path": "backend/routes/gap-no-webhook-receivers-for-engagement-even.js:25",
+        "sourceProject": "AiInteriorDesign",
+        "path": "backend/routes/gap-no-webhook-surface.js:25",
         "route": "pool",
-        "originApp": "media-content-creative/esports-performance-analyzer"
+        "originApp": "media-content-creative/logo-brand-kit-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-active-prompt-improvement-ai-only.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-collaboration-shared-workspaces.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-image-marketplace-royalty-tracking.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-live-generate-image-endpoint-only.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-payment-processing-surface-beyond-str.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-public-profileportfolio-pages.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-real-style-transfer-execution.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-upscaling-execution.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-variation-execution.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiImageGeneration",
+        "path": "backend/routes/gap-no-webhook-surface.js:25",
+        "route": "pool",
+        "originApp": "media-content-creative/music-generation"
       },
       {
         "kind": "api",
@@ -4975,7 +4837,7 @@
   },
   {
     "name": "Rag Over Rulebooks Dd5E Pathfinder Etc For Insta Page",
-    "canonicalKey": "dd5e etc for insta over pathfinder rag rulebooks",
+    "canonicalKey": "dd5e etc for insta over pathfinder rag rulebook",
     "aliases": [],
     "kinds": [
       "page"
@@ -5026,30 +4888,6 @@
     ]
   },
   {
-    "name": "Real Time Sentiment Intervention Coaching Agents M",
-    "canonicalKey": "agents coaching intervention m real sentiment time",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "aIVoiceAgent"
-    ],
-    "consolidatedFromApps": [
-      "media-content-creative/game-balancing-playtesting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:51",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      }
-    ]
-  },
-  {
     "name": "Recent",
     "canonicalKey": "recent",
     "aliases": [],
@@ -5070,17 +4908,17 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/fakeFollowerDetector.js:86",
+        "route": "/recent",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIGameBalancingPlaytestingAgent",
         "path": "server/routes/esportsMetaPredictor.js:60",
         "route": "/recent",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIInfluencerManagementPlatform",
-        "path": "backend/routes/fakeFollowerDetector.js:85",
-        "route": "/recent",
-        "originApp": "media-content-creative/esports-performance-analyzer"
       }
     ]
   },
@@ -5219,6 +5057,32 @@
         "sourceProject": "AIBoardGameTTRPGGameMaster",
         "path": "backend/src/routes/dice.js:26",
         "route": "/roll-many",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Routes D Ts",
+    "canonicalKey": "d route ts",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "./.next/types/routes.d.ts"
+    ],
+    "sourceProjects": [
+      "aIVoiceAgent"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "aIVoiceAgent",
+        "path": "next-env.d.ts:3",
+        "route": "./.next/types/routes.d.ts",
         "originApp": "media-content-creative/game-balancing-playtesting-agent"
       }
     ]
@@ -5373,6 +5237,53 @@
     ]
   },
   {
+    "name": "Sentiment Analyze",
+    "canonicalKey": "analyze sentiment",
+    "aliases": [
+      "Analyze Sentiment"
+    ],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/analyze-sentiment",
+      "/sentiment-analyze"
+    ],
+    "sourceProjects": [
+      "AIGameBalancingPlaytestingAgent",
+      "AIInfluencerManagementPlatform",
+      "AIMemoryBookCreator"
+    ],
+    "consolidatedFromApps": [
+      "media-content-creative/comic-book-generator",
+      "media-content-creative/esports-performance-analyzer",
+      "media-content-creative/game-balancing-playtesting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMemoryBookCreator",
+        "path": "backend/routes/ai.js:140",
+        "route": "/analyze-sentiment",
+        "originApp": "media-content-creative/comic-book-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIInfluencerManagementPlatform",
+        "path": "backend/routes/ai.js:95",
+        "route": "/analyze-sentiment",
+        "originApp": "media-content-creative/esports-performance-analyzer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGameBalancingPlaytestingAgent",
+        "path": "server/routes/ai.js:204",
+        "route": "/sentiment-analyze",
+        "originApp": "media-content-creative/game-balancing-playtesting-agent"
+      }
+    ]
+  },
+  {
     "name": "Sessions",
     "canonicalKey": "session",
     "aliases": [],
@@ -5480,7 +5391,6 @@
     "canonicalKey": "enhancer speech",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -5494,13 +5404,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:64",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
-      {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
         "path": "src/app/(dashboard)/ai/speech-enhancer/page.tsx",
@@ -5511,7 +5414,7 @@
   },
   {
     "name": "Sprite Atlas Budget",
-    "canonicalKey": "atlas budget sprite",
+    "canonicalKey": "atla budget sprite",
     "aliases": [],
     "kinds": [
       "page"
@@ -5678,7 +5581,6 @@
     "canonicalKey": "control style tts",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -5691,13 +5593,6 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:76",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -5748,7 +5643,6 @@
     "canonicalKey": "clone enroll voice",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -5761,13 +5655,6 @@
       "media-content-creative/game-balancing-playtesting-agent"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:74",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
       {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
@@ -5782,7 +5669,6 @@
     "canonicalKey": "provenance watermark",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -5796,13 +5682,6 @@
     ],
     "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "aIVoiceAgent",
-        "path": "src/components/layout/sidebar.tsx:80",
-        "route": "",
-        "originApp": "media-content-creative/game-balancing-playtesting-agent"
-      },
-      {
         "kind": "page",
         "sourceProject": "aIVoiceAgent",
         "path": "src/app/(dashboard)/voicestudio/watermarkProvenance/page.tsx",
@@ -5813,7 +5692,7 @@
   },
   {
     "name": "White Label Vtt For Indie Game Publishers To Ship Page",
-    "canonicalKey": "for game indie label publishers ship to vtt white",
+    "canonicalKey": "for game indie label publisher ship to vtt white",
     "aliases": [],
     "kinds": [
       "page"
